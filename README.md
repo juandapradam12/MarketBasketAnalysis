@@ -1,12 +1,25 @@
 # Market Basket Analysis
 
-Association mining on grocery baskets — a reusable **MBA toolkit** with Apriori, FP-Growth, Eclat, association rules, PMI networks, sequential patterns, recommenders, holdout evaluation, and a Streamlit demo.
+**What should go next in the cart?**  
+This repo turns that retail question into a clear data-science story: from a first Instacart association notebook to a full market-basket lab you can run, compare, and demo.
 
-Originally built around the [Instacart Market Basket Analysis](https://www.kaggle.com/c/instacart-market-basket-analysis) dataset. The classic goal still holds: find products that appear together. This rewrite fixes the algorithm, adds complementary techniques, and ships visualizations plus a reproducible sample dataset.
+You start with the **original exploratory notebook** (kept as stage 1). Then you move to a reusable Python toolkit that mines frequent itemsets (**Apriori**, **FP-Growth**, **Eclat**), ranks **association rules**, maps **PMI affinities**, follows **next-order sequences**, and suggests products with **CF / SVD recommenders** — all backed by figures, holdout metrics, and a **Streamlit** lab.
+
+Built for a personal portfolio: same business problem, two eras of approach, one reproducible pipeline on Instacart-like baskets.
 
 <p align="center">
   <img src="figures/04_top_quadruples.png" alt="Top 4-itemsets by support" width="720"/>
 </p>
+
+<p align="center">
+  <em>Sparkling waters and berry mixes — the classic co-purchase themes, now with proper support, lift, and visuals.</em>
+</p>
+
+**Stack:** Python · pandas · mlxtend · scikit-learn · Plotly · Streamlit · NetworkX  
+
+**Topics:** `market-basket-analysis` · `association-rules` · `apriori` · `fp-growth` · `eclat` · `instacart` · `recommender-systems` · `data-mining` · `retail-analytics` · `streamlit` · `python` · `data-science`
+
+> **GitHub About** (Settings → General): paste the short blurb + topics from [`GITHUB_ABOUT.md`](GITHUB_ABOUT.md) — the API token on this agent cannot edit repo metadata.
 
 ---
 
