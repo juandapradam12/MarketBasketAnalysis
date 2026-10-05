@@ -1,25 +1,23 @@
 # Market Basket Analysis
 
 **What should go next in the cart?**  
-This repo turns that retail question into a clear data-science story: from a first Instacart association notebook to a full market-basket lab you can run, compare, and demo.
+Market basket analysis turns grocery receipts into actionable affinities: which products are bought together, which pairs lift each other, and what to recommend next.
 
-You start with the **original exploratory notebook** (kept as stage 1). Then you move to a reusable Python toolkit that mines frequent itemsets (**Apriori**, **FP-Growth**, **Eclat**), ranks **association rules**, maps **PMI affinities**, follows **next-order sequences**, and suggests products with **CF / SVD recommenders** — all backed by figures, holdout metrics, and a **Streamlit** lab.
-
-Built for a personal portfolio: same business problem, two eras of approach, one reproducible pipeline on Instacart-like baskets.
+This repo is an end-to-end **retail analytics lab** for that use case — frequent-itemset mining (**Apriori**, **FP-Growth**, **Eclat**), **association rules** with lift / confidence / utility, **PMI** affinity networks, **next-order** sequential patterns, **CF / SVD** recommenders, holdout evaluation, and a **Streamlit** demo on Instacart-style baskets.
 
 <p align="center">
   <img src="figures/04_top_quadruples.png" alt="Top 4-itemsets by support" width="720"/>
 </p>
 
 <p align="center">
-  <em>Sparkling waters and berry mixes — the classic co-purchase themes, now with proper support, lift, and visuals.</em>
+  <em>Example insight: sparkling-water flights and berry mixes rise as high-support co-purchase bundles.</em>
 </p>
 
 **Stack:** Python · pandas · mlxtend · scikit-learn · Plotly · Streamlit · NetworkX  
 
 **Topics:** `market-basket-analysis` · `association-rules` · `apriori` · `fp-growth` · `eclat` · `instacart` · `recommender-systems` · `data-mining` · `retail-analytics` · `streamlit` · `python` · `data-science`
 
-> **GitHub About** (Settings → General): paste the short blurb + topics from [`GITHUB_ABOUT.md`](GITHUB_ABOUT.md) — the API token on this agent cannot edit repo metadata.
+> Paste the GitHub About blurb + topics from [`GITHUB_ABOUT.md`](GITHUB_ABOUT.md) into **Settings → General** (API cannot set repo metadata from this agent).
 
 ---
 

@@ -5,16 +5,16 @@ Paste these manually under **GitHub → Settings → General → About**.
 
 ## Description (≤ 350 characters)
 
-```
-From a homework-style Instacart notebook to a full market-basket lab: Apriori, FP-Growth, Eclat, association rules, PMI networks, sequential patterns, recommenders, and a Streamlit demo.
-```
-
-Character count: 178
-
-### Alternative (more narrative)
+Sell the **use case**, not the repo history:
 
 ```
-What goes in the cart next? Original Instacart association notebook → production-style MBA toolkit with miners, rules, affinities, sequences, recommenders, and an interactive Streamlit lab.
+Market basket analysis for retail: discover products bought together, rank association rules, map affinities, and recommend what goes next in the cart — with Apriori, FP-Growth, Eclat, and a Streamlit demo.
+```
+
+### Alternative (shorter)
+
+```
+What goes in the cart next? Market basket analysis with association rules, affinity networks, sequential patterns, and recommenders on Instacart-style grocery data.
 ```
 
 ## Website (optional)
@@ -23,11 +23,7 @@ What goes in the cart next? Original Instacart association notebook → producti
 https://github.com/juandapradam12/MarketBasketAnalysis
 ```
 
-Or point at a Streamlit Cloud deploy later if you publish one.
-
 ## Topics (tags)
-
-Add these one by one (GitHub max 20):
 
 ```
 market-basket-analysis
@@ -47,9 +43,8 @@ pandas
 portfolio
 ```
 
-## Why this framing sells
+## Positioning
 
-- Leads with the **business question**, not the algorithm name  
-- Shows **growth** (notebook → toolkit) — good portfolio storytelling  
-- Names concrete techniques recruiters/search recognize  
-- Tags cover retail analytics + classic data-mining keywords for discovery
+- Lead with the retail question / business value  
+- Name the analytical capabilities (rules, affinities, recommendations)  
+- Keep the “original notebook → toolkit” story inside the README timeline section, not in About
