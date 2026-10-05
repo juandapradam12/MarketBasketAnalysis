@@ -1,679 +1,591 @@
 itemset,itemset_names,size,support
-"(24852,)","('Banana',)",1,0.230625
-"(21709,)","('Sparkling Lemon Water',)",1,0.226625
-"(14947,)","('Pure Sparkling Water',)",1,0.2215
-"(21137,)","('Organic Strawberries',)",1,0.2055
-"(35221,)","('Lime Sparkling Water',)",1,0.199875
-"(16797,)","('Strawberries',)",1,0.192125
-"(39275,)","('Organic Blueberries',)",1,0.18175
-"(21903,)","('Organic Baby Spinach',)",1,0.179125
-"(47766,)","('Organic Avocado',)",1,0.17825
-"(13176,)","('Bag of Organic Bananas',)",1,0.170375
-"(47209,)","('Organic Hass Avocado',)",1,0.163375
-"(44632,)","('Sparkling Water Grapefruit',)",1,0.158625
-"(27845,)","('Organic Whole Milk',)",1,0.145
-"(47626,)","('Large Lemon',)",1,0.14425
-"(26209,)","('Limes',)",1,0.14375
-"(27966,)","('Organic Raspberries',)",1,0.136625
-"(24964,)","('Organic Garlic',)",1,0.1275
-"(22935,)","('Organic Yellow Onion',)",1,0.12425
-"(45007,)","('Organic Zucchini',)",1,0.12225
-"(21288,)","('Blackberries',)",1,0.11975
-"(49683,)","('Cucumber Kirby',)",1,0.119125
-"(43352,)","('Raspberries',)",1,0.11675
-"(27086,)","('Half & Half',)",1,0.114875
-"(14233,)","('Natural Spring Water',)",1,0.107
-"(5077,)","('100% Whole Wheat Bread',)",1,0.106625
-"(26620,)","('Peach Pear Flavored Sparkling Water',)",1,0.102625
-"(40706,)","('Organic Grape Tomatoes',)",1,0.080625
-"(5876,)","('Organic Lemon',)",1,0.079125
-"(49235,)","('Organic Half & Half',)",1,0.078
-"(28204,)","('Organic Fuji Apple',)",1,0.075375
-"(12341,)","('Hass Avocados',)",1,0.07475
-"(196,)","('Soda',)",1,0.066875
-"(6184,)","('Sparkling Water Berry',)",1,0.06325
-"(43154,)","('Organic Red Potatoes',)",1,0.060375
-"(37710,)","('Trail Mix',)",1,0.058625
-"(30489,)","('Organic Raw Kombucha Gingerade',)",1,0.054875
-"(35951,)","('Organic Large Extra Fancy Fuji Apple',)",1,0.05225
-"(4605,)","('Yellow Onions',)",1,0.05225
-"(17794,)","('Carrots',)",1,0.048625
-"(31717,)","('Organic Cilantro',)",1,0.04425
-"(8518,)","('Organic Red Onion',)",1,0.0425
-"(39928,)","('Organic Baby Carrots',)",1,0.042
-"(46979,)","('Asparagus',)",1,0.040875
-"(34126,)","('Organic Italian Parsley Bunch',)",1,0.039625
-"(22825,)","('Organic Broccoli',)",1,0.03875
-"(10749,)","('Organic Cilantro Bunch',)",1,0.035625
-"(24184,)","('Organic Baby Broccoli',)",1,0.034375
-"(28842,)","('Organic Sweet Peas',)",1,0.03275
-"(27104,)","('Fresh Basil',)",1,0.031
-"(18523,)","('Organic Baby Arugula',)",1,0.03075
-"(14947, 21709)","('Pure Sparkling Water', 'Sparkling Lemon Water')",2,0.16225
-"(21709, 35221)","('Sparkling Lemon Water', 'Lime Sparkling Water')",2,0.1375
-"(14947, 35221)","('Pure Sparkling Water', 'Lime Sparkling Water')",2,0.136875
-"(16797, 39275)","('Strawberries', 'Organic Blueberries')",2,0.11
-"(14947, 44632)","('Pure Sparkling Water', 'Sparkling Water Grapefruit')",2,0.100625
-"(21709, 44632)","('Sparkling Lemon Water', 'Sparkling Water Grapefruit')",2,0.099625
-"(24852, 47766)","('Banana', 'Organic Avocado')",2,0.097875
-"(35221, 44632)","('Lime Sparkling Water', 'Sparkling Water Grapefruit')",2,0.097125
-"(21903, 24852)","('Organic Baby Spinach', 'Banana')",2,0.096875
-"(21903, 47766)","('Organic Baby Spinach', 'Organic Avocado')",2,0.093125
-"(13176, 21137)","('Bag of Organic Bananas', 'Organic Strawberries')",2,0.08125
-"(21137, 47209)","('Organic Strawberries', 'Organic Hass Avocado')",2,0.080625
-"(13176, 47209)","('Bag of Organic Bananas', 'Organic Hass Avocado')",2,0.0775
-"(24852, 47626)","('Banana', 'Large Lemon')",2,0.065625
-"(24852, 26209)","('Banana', 'Limes')",2,0.065
-"(16797, 21137)","('Strawberries', 'Organic Strawberries')",2,0.06475
-"(21137, 39275)","('Organic Strawberries', 'Organic Blueberries')",2,0.06375
-"(21288, 39275)","('Blackberries', 'Organic Blueberries')",2,0.06325
-"(27086, 27845)","('Half & Half', 'Organic Whole Milk')",2,0.06325
-"(5077, 27845)","('100% Whole Wheat Bread', 'Organic Whole Milk')",2,0.06275
-"(16797, 43352)","('Strawberries', 'Raspberries')",2,0.06225
-"(16797, 21288)","('Strawberries', 'Blackberries')",2,0.062125
-"(21137, 27966)","('Organic Strawberries', 'Organic Raspberries')",2,0.06175
-"(39275, 43352)","('Organic Blueberries', 'Raspberries')",2,0.061625
-"(5077, 27086)","('100% Whole Wheat Bread', 'Half & Half')",2,0.061125
-"(16797, 27966)","('Strawberries', 'Organic Raspberries')",2,0.0605
-"(26209, 47626)","('Limes', 'Large Lemon')",2,0.06025
-"(27966, 39275)","('Organic Raspberries', 'Organic Blueberries')",2,0.0595
-"(21288, 43352)","('Blackberries', 'Raspberries')",2,0.05925
-"(21709, 26620)","('Sparkling Lemon Water', 'Peach Pear Flavored Sparkling Water')",2,0.049125
-"(14947, 26620)","('Pure Sparkling Water', 'Peach Pear Flavored Sparkling Water')",2,0.048375
-"(26620, 35221)","('Peach Pear Flavored Sparkling Water', 'Lime Sparkling Water')",2,0.047125
-"(22935, 45007)","('Organic Yellow Onion', 'Organic Zucchini')",2,0.046875
-"(45007, 49683)","('Organic Zucchini', 'Cucumber Kirby')",2,0.0455
-"(24964, 45007)","('Organic Garlic', 'Organic Zucchini')",2,0.04525
-"(22935, 49683)","('Organic Yellow Onion', 'Cucumber Kirby')",2,0.045125
-"(22935, 24964)","('Organic Yellow Onion', 'Organic Garlic')",2,0.045125
-"(14233, 21709)","('Natural Spring Water', 'Sparkling Lemon Water')",2,0.043125
-"(24964, 49683)","('Organic Garlic', 'Cucumber Kirby')",2,0.0425
-"(14233, 14947)","('Natural Spring Water', 'Pure Sparkling Water')",2,0.041875
-"(16797, 24852)","('Strawberries', 'Banana')",2,0.0265
-"(13176, 24852)","('Bag of Organic Bananas', 'Banana')",2,0.026125
-"(21137, 24852)","('Organic Strawberries', 'Banana')",2,0.025625
-"(14947, 24852)","('Pure Sparkling Water', 'Banana')",2,0.025625
-"(21137, 21903)","('Organic Strawberries', 'Organic Baby Spinach')",2,0.024875
-"(21709, 24852)","('Sparkling Lemon Water', 'Banana')",2,0.024625
-"(24852, 35221)","('Banana', 'Lime Sparkling Water')",2,0.02425
-"(24852, 47209)","('Banana', 'Organic Hass Avocado')",2,0.024125
-"(16797, 47626)","('Strawberries', 'Large Lemon')",2,0.0235
-"(13176, 21709)","('Bag of Organic Bananas', 'Sparkling Lemon Water')",2,0.023375
-"(21709, 21903)","('Sparkling Lemon Water', 'Organic Baby Spinach')",2,0.02325
-"(24852, 39275)","('Banana', 'Organic Blueberries')",2,0.02325
-"(24852, 27966)","('Banana', 'Organic Raspberries')",2,0.02325
-"(21137, 21709)","('Organic Strawberries', 'Sparkling Lemon Water')",2,0.022875
-"(21137, 47766)","('Organic Strawberries', 'Organic Avocado')",2,0.022875
-"(24852, 24964)","('Banana', 'Organic Garlic')",2,0.022625
-"(16797, 21709)","('Strawberries', 'Sparkling Lemon Water')",2,0.0225
-"(13176, 14947)","('Bag of Organic Bananas', 'Pure Sparkling Water')",2,0.0225
-"(13176, 21903)","('Bag of Organic Bananas', 'Organic Baby Spinach')",2,0.02225
-"(16797, 47209)","('Strawberries', 'Organic Hass Avocado')",2,0.02225
-"(13176, 35221)","('Bag of Organic Bananas', 'Lime Sparkling Water')",2,0.022125
-"(16797, 21903)","('Strawberries', 'Organic Baby Spinach')",2,0.021875
-"(47209, 47766)","('Organic Hass Avocado', 'Organic Avocado')",2,0.02175
-"(14947, 21137)","('Pure Sparkling Water', 'Organic Strawberries')",2,0.021625
-"(39275, 47626)","('Organic Blueberries', 'Large Lemon')",2,0.0215
-"(14947, 21903)","('Pure Sparkling Water', 'Organic Baby Spinach')",2,0.021375
-"(21903, 35221)","('Organic Baby Spinach', 'Lime Sparkling Water')",2,0.021375
-"(22935, 24852)","('Organic Yellow Onion', 'Banana')",2,0.021375
-"(21137, 27845)","('Organic Strawberries', 'Organic Whole Milk')",2,0.021375
-"(35221, 47209)","('Lime Sparkling Water', 'Organic Hass Avocado')",2,0.02125
-"(14947, 16797)","('Pure Sparkling Water', 'Strawberries')",2,0.021125
-"(13176, 47766)","('Bag of Organic Bananas', 'Organic Avocado')",2,0.021125
-"(39275, 47209)","('Organic Blueberries', 'Organic Hass Avocado')",2,0.021125
-"(21709, 24964)","('Sparkling Lemon Water', 'Organic Garlic')",2,0.021
-"(16797, 35221)","('Strawberries', 'Lime Sparkling Water')",2,0.020875
-"(21709, 47766)","('Sparkling Lemon Water', 'Organic Avocado')",2,0.020875
-"(35221, 47766)","('Lime Sparkling Water', 'Organic Avocado')",2,0.02075
-"(16797, 26209)","('Strawberries', 'Limes')",2,0.02075
-"(13176, 26209)","('Bag of Organic Bananas', 'Limes')",2,0.02075
-"(21137, 35221)","('Organic Strawberries', 'Lime Sparkling Water')",2,0.02075
-"(13176, 16797)","('Bag of Organic Bananas', 'Strawberries')",2,0.020625
-"(21903, 39275)","('Organic Baby Spinach', 'Organic Blueberries')",2,0.0205
-"(13176, 39275)","('Bag of Organic Bananas', 'Organic Blueberries')",2,0.020375
-"(21709, 47626)","('Sparkling Lemon Water', 'Large Lemon')",2,0.02025
-"(14947, 39275)","('Pure Sparkling Water', 'Organic Blueberries')",2,0.020125
-"(21903, 47626)","('Organic Baby Spinach', 'Large Lemon')",2,0.020125
-"(24852, 44632)","('Banana', 'Sparkling Water Grapefruit')",2,0.019875
-"(16797, 47766)","('Strawberries', 'Organic Avocado')",2,0.01975
-"(21903, 47209)","('Organic Baby Spinach', 'Organic Hass Avocado')",2,0.019625
-"(27845, 47766)","('Organic Whole Milk', 'Organic Avocado')",2,0.019625
-"(14947, 47209)","('Pure Sparkling Water', 'Organic Hass Avocado')",2,0.0195
-"(21709, 47209)","('Sparkling Lemon Water', 'Organic Hass Avocado')",2,0.0195
-"(21137, 24964)","('Organic Strawberries', 'Organic Garlic')",2,0.0195
-"(24852, 27845)","('Banana', 'Organic Whole Milk')",2,0.019375
-"(14233, 24852)","('Natural Spring Water', 'Banana')",2,0.01925
-"(21709, 27966)","('Sparkling Lemon Water', 'Organic Raspberries')",2,0.01925
-"(24852, 45007)","('Banana', 'Organic Zucchini')",2,0.019125
-"(21137, 47626)","('Organic Strawberries', 'Large Lemon')",2,0.019
-"(21137, 22935)","('Organic Strawberries', 'Organic Yellow Onion')",2,0.019
-"(26209, 27845)","('Limes', 'Organic Whole Milk')",2,0.019
-"(16797, 24964)","('Strawberries', 'Organic Garlic')",2,0.019
-"(13176, 27966)","('Bag of Organic Bananas', 'Organic Raspberries')",2,0.019
-"(35221, 39275)","('Lime Sparkling Water', 'Organic Blueberries')",2,0.018875
-"(21137, 26209)","('Organic Strawberries', 'Limes')",2,0.018875
-"(21903, 27966)","('Organic Baby Spinach', 'Organic Raspberries')",2,0.018875
-"(24852, 49683)","('Banana', 'Cucumber Kirby')",2,0.01875
-"(13176, 47626)","('Bag of Organic Bananas', 'Large Lemon')",2,0.018625
-"(26209, 47766)","('Limes', 'Organic Avocado')",2,0.018625
-"(14947, 26209)","('Pure Sparkling Water', 'Limes')",2,0.018625
-"(14947, 47626)","('Pure Sparkling Water', 'Large Lemon')",2,0.0185
-"(16797, 22935)","('Strawberries', 'Organic Yellow Onion')",2,0.0185
-"(21903, 22935)","('Organic Baby Spinach', 'Organic Yellow Onion')",2,0.0185
-"(22935, 47766)","('Organic Yellow Onion', 'Organic Avocado')",2,0.0185
-"(14947, 47766)","('Pure Sparkling Water', 'Organic Avocado')",2,0.0185
-"(27845, 47209)","('Organic Whole Milk', 'Organic Hass Avocado')",2,0.0185
-"(21709, 45007)","('Sparkling Lemon Water', 'Organic Zucchini')",2,0.0185
-"(21709, 26209)","('Sparkling Lemon Water', 'Limes')",2,0.018375
-"(21137, 45007)","('Organic Strawberries', 'Organic Zucchini')",2,0.018375
-"(27966, 47766)","('Organic Raspberries', 'Organic Avocado')",2,0.018375
-"(21288, 24852)","('Blackberries', 'Banana')",2,0.01825
-"(16797, 27845)","('Strawberries', 'Organic Whole Milk')",2,0.01825
-"(26209, 39275)","('Limes', 'Organic Blueberries')",2,0.01825
-"(24852, 43352)","('Banana', 'Raspberries')",2,0.018125
-"(21137, 44632)","('Organic Strawberries', 'Sparkling Water Grapefruit')",2,0.018
-"(35221, 47626)","('Lime Sparkling Water', 'Large Lemon')",2,0.018
-"(13176, 22935)","('Bag of Organic Bananas', 'Organic Yellow Onion')",2,0.018
-"(13176, 45007)","('Bag of Organic Bananas', 'Organic Zucchini')",2,0.018
-"(21709, 39275)","('Sparkling Lemon Water', 'Organic Blueberries')",2,0.017875
-"(47209, 47626)","('Organic Hass Avocado', 'Large Lemon')",2,0.017875
-"(13176, 27845)","('Bag of Organic Bananas', 'Organic Whole Milk')",2,0.017875
-"(14947, 24964)","('Pure Sparkling Water', 'Organic Garlic')",2,0.017875
-"(14947, 49683)","('Pure Sparkling Water', 'Cucumber Kirby')",2,0.01775
-"(21709, 49683)","('Sparkling Lemon Water', 'Cucumber Kirby')",2,0.01775
-"(16797, 49683)","('Strawberries', 'Cucumber Kirby')",2,0.017625
-"(21709, 27845)","('Sparkling Lemon Water', 'Organic Whole Milk')",2,0.017625
-"(16797, 45007)","('Strawberries', 'Organic Zucchini')",2,0.017625
-"(39275, 47766)","('Organic Blueberries', 'Organic Avocado')",2,0.0175
-"(24964, 39275)","('Organic Garlic', 'Organic Blueberries')",2,0.0175
-"(47626, 47766)","('Large Lemon', 'Organic Avocado')",2,0.017375
-"(27845, 39275)","('Organic Whole Milk', 'Organic Blueberries')",2,0.017375
-"(14947, 27845)","('Pure Sparkling Water', 'Organic Whole Milk')",2,0.017375
-"(13176, 44632)","('Bag of Organic Bananas', 'Sparkling Water Grapefruit')",2,0.01725
-"(39275, 44632)","('Organic Blueberries', 'Sparkling Water Grapefruit')",2,0.01725
-"(21137, 26620)","('Organic Strawberries', 'Peach Pear Flavored Sparkling Water')",2,0.01725
-"(26209, 35221)","('Limes', 'Lime Sparkling Water')",2,0.01725
-"(24964, 35221)","('Organic Garlic', 'Lime Sparkling Water')",2,0.01725
-"(12341, 24852)","('Hass Avocados', 'Banana')",2,0.017125
-"(27966, 47209)","('Organic Raspberries', 'Organic Hass Avocado')",2,0.017125
-"(22935, 39275)","('Organic Yellow Onion', 'Organic Blueberries')",2,0.016875
-"(24964, 26209)","('Organic Garlic', 'Limes')",2,0.01675
-"(16797, 44632)","('Strawberries', 'Sparkling Water Grapefruit')",2,0.016625
-"(14947, 45007)","('Pure Sparkling Water', 'Organic Zucchini')",2,0.016625
-"(24964, 47209)","('Organic Garlic', 'Organic Hass Avocado')",2,0.016625
-"(27966, 47626)","('Organic Raspberries', 'Large Lemon')",2,0.016625
-"(39275, 49683)","('Organic Blueberries', 'Cucumber Kirby')",2,0.0165
-"(21903, 27845)","('Organic Baby Spinach', 'Organic Whole Milk')",2,0.0165
-"(27966, 35221)","('Organic Raspberries', 'Lime Sparkling Water')",2,0.0165
-"(21137, 21288)","('Organic Strawberries', 'Blackberries')",2,0.016375
-"(21903, 24964)","('Organic Baby Spinach', 'Organic Garlic')",2,0.016375
-"(47766, 49683)","('Organic Avocado', 'Cucumber Kirby')",2,0.01625
-"(21903, 26209)","('Organic Baby Spinach', 'Limes')",2,0.01625
-"(14947, 43352)","('Pure Sparkling Water', 'Raspberries')",2,0.01625
-"(24964, 47766)","('Organic Garlic', 'Organic Avocado')",2,0.01625
-"(13176, 49683)","('Bag of Organic Bananas', 'Cucumber Kirby')",2,0.016125
-"(21709, 40706)","('Sparkling Lemon Water', 'Organic Grape Tomatoes')",2,0.016125
-"(21137, 49683)","('Organic Strawberries', 'Cucumber Kirby')",2,0.016
-"(14947, 27966)","('Pure Sparkling Water', 'Organic Raspberries')",2,0.016
-"(13176, 24964)","('Bag of Organic Bananas', 'Organic Garlic')",2,0.015875
-"(27845, 27966)","('Organic Whole Milk', 'Organic Raspberries')",2,0.015875
-"(44632, 47766)","('Sparkling Water Grapefruit', 'Organic Avocado')",2,0.01575
-"(35221, 49683)","('Lime Sparkling Water', 'Cucumber Kirby')",2,0.01575
-"(22935, 47209)","('Organic Yellow Onion', 'Organic Hass Avocado')",2,0.01575
-"(21709, 22935)","('Sparkling Lemon Water', 'Organic Yellow Onion')",2,0.01575
-"(26209, 47209)","('Limes', 'Organic Hass Avocado')",2,0.01575
-"(45007, 47766)","('Organic Zucchini', 'Organic Avocado')",2,0.01575
-"(21137, 40706)","('Organic Strawberries', 'Organic Grape Tomatoes')",2,0.01575
-"(44632, 47209)","('Sparkling Water Grapefruit', 'Organic Hass Avocado')",2,0.015625
-"(45007, 47209)","('Organic Zucchini', 'Organic Hass Avocado')",2,0.015625
-"(47626, 49683)","('Large Lemon', 'Cucumber Kirby')",2,0.0155
-"(14233, 47766)","('Natural Spring Water', 'Organic Avocado')",2,0.015375
-"(14947, 22935)","('Pure Sparkling Water', 'Organic Yellow Onion')",2,0.015375
-"(21903, 43352)","('Organic Baby Spinach', 'Raspberries')",2,0.015375
-"(13176, 27086)","('Bag of Organic Bananas', 'Half & Half')",2,0.015375
-"(21903, 44632)","('Organic Baby Spinach', 'Sparkling Water Grapefruit')",2,0.01525
-"(24852, 28204)","('Banana', 'Organic Fuji Apple')",2,0.01525
-"(39275, 45007)","('Organic Blueberries', 'Organic Zucchini')",2,0.01525
-"(24964, 47626)","('Organic Garlic', 'Large Lemon')",2,0.01525
-"(22935, 47626)","('Organic Yellow Onion', 'Large Lemon')",2,0.015125
-"(35221, 45007)","('Lime Sparkling Water', 'Organic Zucchini')",2,0.015125
-"(35221, 43352)","('Lime Sparkling Water', 'Raspberries')",2,0.015125
-"(22935, 26209)","('Organic Yellow Onion', 'Limes')",2,0.015
-"(21709, 43352)","('Sparkling Lemon Water', 'Raspberries')",2,0.015
-"(24964, 27966)","('Organic Garlic', 'Organic Raspberries')",2,0.015
-"(27966, 44632)","('Organic Raspberries', 'Sparkling Water Grapefruit')",2,0.015
-"(26209, 27966)","('Limes', 'Organic Raspberries')",2,0.015
-"(14233, 16797)","('Natural Spring Water', 'Strawberries')",2,0.014875
-"(27845, 47626)","('Organic Whole Milk', 'Large Lemon')",2,0.014875
-"(22935, 27966)","('Organic Yellow Onion', 'Organic Raspberries')",2,0.014875
-"(24852, 40706)","('Banana', 'Organic Grape Tomatoes')",2,0.014875
-"(14233, 47626)","('Natural Spring Water', 'Large Lemon')",2,0.01475
-"(14233, 35221)","('Natural Spring Water', 'Lime Sparkling Water')",2,0.01475
-"(14233, 21137)","('Natural Spring Water', 'Organic Strawberries')",2,0.01475
-"(27845, 35221)","('Organic Whole Milk', 'Lime Sparkling Water')",2,0.01475
-"(16797, 40706)","('Strawberries', 'Organic Grape Tomatoes')",2,0.01475
-"(14947, 40706)","('Pure Sparkling Water', 'Organic Grape Tomatoes')",2,0.01475
-"(24964, 44632)","('Organic Garlic', 'Sparkling Water Grapefruit')",2,0.01475
-"(21288, 21903)","('Blackberries', 'Organic Baby Spinach')",2,0.014625
-"(44632, 47626)","('Sparkling Water Grapefruit', 'Large Lemon')",2,0.014625
-"(22935, 27845)","('Organic Yellow Onion', 'Organic Whole Milk')",2,0.014625
-"(21709, 49235)","('Sparkling Lemon Water', 'Organic Half & Half')",2,0.014625
-"(21288, 47626)","('Blackberries', 'Large Lemon')",2,0.0145
-"(5876, 24852)","('Organic Lemon', 'Banana')",2,0.0145
-"(21137, 43352)","('Organic Strawberries', 'Raspberries')",2,0.014375
-"(24852, 27086)","('Banana', 'Half & Half')",2,0.014375
-"(21288, 35221)","('Blackberries', 'Lime Sparkling Water')",2,0.01425
-"(21903, 49683)","('Organic Baby Spinach', 'Cucumber Kirby')",2,0.01425
-"(26209, 45007)","('Limes', 'Organic Zucchini')",2,0.01425
-"(24964, 27845)","('Organic Garlic', 'Organic Whole Milk')",2,0.01425
-"(24852, 49235)","('Banana', 'Organic Half & Half')",2,0.01425
-"(21137, 49235)","('Organic Strawberries', 'Organic Half & Half')",2,0.01425
-"(21288, 47766)","('Blackberries', 'Organic Avocado')",2,0.014125
-"(14233, 47209)","('Natural Spring Water', 'Organic Hass Avocado')",2,0.014125
-"(12341, 16797)","('Hass Avocados', 'Strawberries')",2,0.014125
-"(26209, 44632)","('Limes', 'Sparkling Water Grapefruit')",2,0.014125
-"(21903, 45007)","('Organic Baby Spinach', 'Organic Zucchini')",2,0.014125
-"(14947, 49235)","('Pure Sparkling Water', 'Organic Half & Half')",2,0.014125
-"(44632, 49683)","('Sparkling Water Grapefruit', 'Cucumber Kirby')",2,0.014
-"(47209, 49683)","('Organic Hass Avocado', 'Cucumber Kirby')",2,0.014
-"(14947, 27086)","('Pure Sparkling Water', 'Half & Half')",2,0.014
-"(13176, 40706)","('Bag of Organic Bananas', 'Organic Grape Tomatoes')",2,0.013875
-"(21709, 27086)","('Sparkling Lemon Water', 'Half & Half')",2,0.013875
-"(13176, 14233)","('Bag of Organic Bananas', 'Natural Spring Water')",2,0.01375
-"(13176, 26620)","('Bag of Organic Bananas', 'Peach Pear Flavored Sparkling Water')",2,0.01375
-"(21137, 27086)","('Organic Strawberries', 'Half & Half')",2,0.01375
-"(22935, 44632)","('Organic Yellow Onion', 'Sparkling Water Grapefruit')",2,0.013625
-"(45007, 47626)","('Organic Zucchini', 'Large Lemon')",2,0.013625
-"(40706, 47209)","('Organic Grape Tomatoes', 'Organic Hass Avocado')",2,0.013625
-"(24852, 26620)","('Banana', 'Peach Pear Flavored Sparkling Water')",2,0.0135
-"(21709, 28204)","('Sparkling Lemon Water', 'Organic Fuji Apple')",2,0.0135
-"(35221, 40706)","('Lime Sparkling Water', 'Organic Grape Tomatoes')",2,0.0135
-"(43352, 47766)","('Raspberries', 'Organic Avocado')",2,0.0135
-"(27086, 47766)","('Half & Half', 'Organic Avocado')",2,0.0135
-"(14947, 21288)","('Pure Sparkling Water', 'Blackberries')",2,0.013375
-"(27845, 49683)","('Organic Whole Milk', 'Cucumber Kirby')",2,0.013375
-"(5876, 47766)","('Organic Lemon', 'Organic Avocado')",2,0.013375
-"(196, 24852)","('Soda', 'Banana')",2,0.013375
-"(35221, 49235)","('Lime Sparkling Water', 'Organic Half & Half')",2,0.013375
-"(21288, 21709)","('Blackberries', 'Sparkling Lemon Water')",2,0.01325
-"(14233, 39275)","('Natural Spring Water', 'Organic Blueberries')",2,0.01325
-"(22935, 35221)","('Organic Yellow Onion', 'Lime Sparkling Water')",2,0.01325
-"(28204, 47209)","('Organic Fuji Apple', 'Organic Hass Avocado')",2,0.01325
-"(21903, 28204)","('Organic Baby Spinach', 'Organic Fuji Apple')",2,0.01325
-"(27966, 49683)","('Organic Raspberries', 'Cucumber Kirby')",2,0.013125
-"(5876, 21137)","('Organic Lemon', 'Organic Strawberries')",2,0.013125
-"(5876, 21903)","('Organic Lemon', 'Organic Baby Spinach')",2,0.013125
-"(26620, 47209)","('Peach Pear Flavored Sparkling Water', 'Organic Hass Avocado')",2,0.013125
-"(21137, 28204)","('Organic Strawberries', 'Organic Fuji Apple')",2,0.013125
-"(5876, 13176)","('Organic Lemon', 'Bag of Organic Bananas')",2,0.013
-"(12341, 21137)","('Hass Avocados', 'Organic Strawberries')",2,0.013
-"(26620, 47766)","('Peach Pear Flavored Sparkling Water', 'Organic Avocado')",2,0.012875
-"(13176, 21288)","('Bag of Organic Bananas', 'Blackberries')",2,0.01275
-"(16797, 26620)","('Strawberries', 'Peach Pear Flavored Sparkling Water')",2,0.01275
-"(13176, 28204)","('Bag of Organic Bananas', 'Organic Fuji Apple')",2,0.01275
-"(28204, 35221)","('Organic Fuji Apple', 'Lime Sparkling Water')",2,0.01275
-"(44632, 45007)","('Sparkling Water Grapefruit', 'Organic Zucchini')",2,0.01275
-"(16797, 27086)","('Strawberries', 'Half & Half')",2,0.01275
-"(21288, 47209)","('Blackberries', 'Organic Hass Avocado')",2,0.012625
-"(26209, 49683)","('Limes', 'Cucumber Kirby')",2,0.012625
-"(14233, 21903)","('Natural Spring Water', 'Organic Baby Spinach')",2,0.012625
-"(5077, 24852)","('100% Whole Wheat Bread', 'Banana')",2,0.012625
-"(28204, 47766)","('Organic Fuji Apple', 'Organic Avocado')",2,0.012625
-"(16797, 28204)","('Strawberries', 'Organic Fuji Apple')",2,0.012625
-"(40706, 47766)","('Organic Grape Tomatoes', 'Organic Avocado')",2,0.012625
-"(39275, 40706)","('Organic Blueberries', 'Organic Grape Tomatoes')",2,0.012625
-"(43352, 47626)","('Raspberries', 'Large Lemon')",2,0.012625
-"(24964, 43352)","('Organic Garlic', 'Raspberries')",2,0.012625
-"(21288, 27966)","('Blackberries', 'Organic Raspberries')",2,0.0125
-"(14233, 26209)","('Natural Spring Water', 'Limes')",2,0.0125
-"(14233, 27845)","('Natural Spring Water', 'Organic Whole Milk')",2,0.0125
-"(21709, 43154)","('Sparkling Lemon Water', 'Organic Red Potatoes')",2,0.0125
-"(5876, 35221)","('Organic Lemon', 'Lime Sparkling Water')",2,0.0125
-"(5077, 13176)","('100% Whole Wheat Bread', 'Bag of Organic Bananas')",2,0.0125
-"(5077, 14947)","('100% Whole Wheat Bread', 'Pure Sparkling Water')",2,0.0125
-"(5077, 16797)","('100% Whole Wheat Bread', 'Strawberries')",2,0.0125
-"(27966, 45007)","('Organic Raspberries', 'Organic Zucchini')",2,0.0125
-"(27845, 45007)","('Organic Whole Milk', 'Organic Zucchini')",2,0.0125
-"(22935, 43352)","('Organic Yellow Onion', 'Raspberries')",2,0.0125
-"(24964, 26620)","('Organic Garlic', 'Peach Pear Flavored Sparkling Water')",2,0.012375
-"(12341, 39275)","('Hass Avocados', 'Organic Blueberries')",2,0.012375
-"(21903, 27086)","('Organic Baby Spinach', 'Half & Half')",2,0.012375
-"(21903, 26620)","('Organic Baby Spinach', 'Peach Pear Flavored Sparkling Water')",2,0.01225
-"(14947, 28204)","('Pure Sparkling Water', 'Organic Fuji Apple')",2,0.01225
-"(12341, 21903)","('Hass Avocados', 'Organic Baby Spinach')",2,0.01225
-"(196, 21709)","('Soda', 'Sparkling Lemon Water')",2,0.01225
-"(6184, 21137)","('Sparkling Water Berry', 'Organic Strawberries')",2,0.01225
-"(47209, 49235)","('Organic Hass Avocado', 'Organic Half & Half')",2,0.01225
-"(21903, 49235)","('Organic Baby Spinach', 'Organic Half & Half')",2,0.01225
-"(21137, 43154)","('Organic Strawberries', 'Organic Red Potatoes')",2,0.012125
-"(5876, 47626)","('Organic Lemon', 'Large Lemon')",2,0.012125
-"(12341, 14947)","('Hass Avocados', 'Pure Sparkling Water')",2,0.012125
-"(16797, 49235)","('Strawberries', 'Organic Half & Half')",2,0.012125
-"(21288, 24964)","('Blackberries', 'Organic Garlic')",2,0.012
-"(5876, 47209)","('Organic Lemon', 'Organic Hass Avocado')",2,0.012
-"(5077, 47766)","('100% Whole Wheat Bread', 'Organic Avocado')",2,0.012
-"(26620, 27845)","('Peach Pear Flavored Sparkling Water', 'Organic Whole Milk')",2,0.012
-"(12341, 21709)","('Hass Avocados', 'Sparkling Lemon Water')",2,0.012
-"(26209, 27086)","('Limes', 'Half & Half')",2,0.012
-"(21288, 26209)","('Blackberries', 'Limes')",2,0.011875
-"(24852, 37710)","('Banana', 'Trail Mix')",2,0.011875
-"(5876, 22935)","('Organic Lemon', 'Organic Yellow Onion')",2,0.011875
-"(5077, 26209)","('100% Whole Wheat Bread', 'Limes')",2,0.011875
-"(43352, 44632)","('Raspberries', 'Sparkling Water Grapefruit')",2,0.011875
-"(13176, 49235)","('Bag of Organic Bananas', 'Organic Half & Half')",2,0.011875
-"(14947, 37710)","('Pure Sparkling Water', 'Trail Mix')",2,0.01175
-"(21709, 30489)","('Sparkling Lemon Water', 'Organic Raw Kombucha Gingerade')",2,0.01175
-"(27845, 44632)","('Organic Whole Milk', 'Sparkling Water Grapefruit')",2,0.01175
-"(24964, 40706)","('Organic Garlic', 'Organic Grape Tomatoes')",2,0.01175
-"(47766, 49235)","('Organic Avocado', 'Organic Half & Half')",2,0.01175
-"(21288, 27845)","('Blackberries', 'Organic Whole Milk')",2,0.011625
-"(5077, 39275)","('100% Whole Wheat Bread', 'Organic Blueberries')",2,0.011625
-"(5077, 21903)","('100% Whole Wheat Bread', 'Organic Baby Spinach')",2,0.011625
-"(12341, 35221)","('Hass Avocados', 'Lime Sparkling Water')",2,0.011625
-"(6184, 16797)","('Sparkling Water Berry', 'Strawberries')",2,0.011625
-"(27086, 35221)","('Half & Half', 'Lime Sparkling Water')",2,0.011625
-"(27086, 49683)","('Half & Half', 'Cucumber Kirby')",2,0.011625
-"(35221, 37710)","('Lime Sparkling Water', 'Trail Mix')",2,0.0115
-"(14233, 44632)","('Natural Spring Water', 'Sparkling Water Grapefruit')",2,0.0115
-"(5876, 39275)","('Organic Lemon', 'Organic Blueberries')",2,0.0115
-"(5077, 21709)","('100% Whole Wheat Bread', 'Sparkling Lemon Water')",2,0.0115
-"(26620, 39275)","('Peach Pear Flavored Sparkling Water', 'Organic Blueberries')",2,0.0115
-"(12341, 47766)","('Hass Avocados', 'Organic Avocado')",2,0.0115
-"(26209, 40706)","('Limes', 'Organic Grape Tomatoes')",2,0.0115
-"(6184, 21709)","('Sparkling Water Berry', 'Sparkling Lemon Water')",2,0.0115
-"(16797, 43154)","('Strawberries', 'Organic Red Potatoes')",2,0.011375
-"(12341, 13176)","('Hass Avocados', 'Bag of Organic Bananas')",2,0.011375
-"(21903, 40706)","('Organic Baby Spinach', 'Organic Grape Tomatoes')",2,0.011375
-"(196, 47766)","('Soda', 'Organic Avocado')",2,0.011375
-"(196, 14947)","('Soda', 'Pure Sparkling Water')",2,0.011375
-"(6184, 47209)","('Sparkling Water Berry', 'Organic Hass Avocado')",2,0.011375
-"(27086, 47209)","('Half & Half', 'Organic Hass Avocado')",2,0.011375
-"(44632, 49235)","('Sparkling Water Grapefruit', 'Organic Half & Half')",2,0.011375
-"(27845, 49235)","('Organic Whole Milk', 'Organic Half & Half')",2,0.011375
-"(5876, 16797)","('Organic Lemon', 'Strawberries')",2,0.01125
-"(13176, 43352)","('Bag of Organic Bananas', 'Raspberries')",2,0.01125
-"(196, 21137)","('Soda', 'Organic Strawberries')",2,0.01125
-"(39275, 49235)","('Organic Blueberries', 'Organic Half & Half')",2,0.01125
-"(21903, 37710)","('Organic Baby Spinach', 'Trail Mix')",2,0.011125
-"(5077, 21137)","('100% Whole Wheat Bread', 'Organic Strawberries')",2,0.011125
-"(5077, 35221)","('100% Whole Wheat Bread', 'Lime Sparkling Water')",2,0.011125
-"(27966, 43352)","('Organic Raspberries', 'Raspberries')",2,0.011125
-"(43352, 47209)","('Raspberries', 'Organic Hass Avocado')",2,0.011125
-"(6184, 24852)","('Sparkling Water Berry', 'Banana')",2,0.011125
-"(6184, 39275)","('Sparkling Water Berry', 'Organic Blueberries')",2,0.011125
-"(27086, 44632)","('Half & Half', 'Sparkling Water Grapefruit')",2,0.011125
-"(21288, 44632)","('Blackberries', 'Sparkling Water Grapefruit')",2,0.011
-"(21288, 45007)","('Blackberries', 'Organic Zucchini')",2,0.011
-"(21709, 37710)","('Sparkling Lemon Water', 'Trail Mix')",2,0.011
-"(14233, 22935)","('Natural Spring Water', 'Organic Yellow Onion')",2,0.011
-"(5876, 24964)","('Organic Lemon', 'Organic Garlic')",2,0.011
-"(43352, 49683)","('Raspberries', 'Cucumber Kirby')",2,0.011
-"(27845, 43352)","('Organic Whole Milk', 'Raspberries')",2,0.011
-"(47626, 49235)","('Large Lemon', 'Organic Half & Half')",2,0.011
-"(26209, 49235)","('Limes', 'Organic Half & Half')",2,0.011
-"(21288, 22935)","('Blackberries', 'Organic Yellow Onion')",2,0.010875
-"(14233, 24964)","('Natural Spring Water', 'Organic Garlic')",2,0.010875
-"(24852, 43154)","('Banana', 'Organic Red Potatoes')",2,0.010875
-"(26620, 49683)","('Peach Pear Flavored Sparkling Water', 'Cucumber Kirby')",2,0.010875
-"(26620, 45007)","('Peach Pear Flavored Sparkling Water', 'Organic Zucchini')",2,0.010875
-"(26209, 28204)","('Limes', 'Organic Fuji Apple')",2,0.010875
-"(43352, 45007)","('Raspberries', 'Organic Zucchini')",2,0.010875
-"(196, 21903)","('Soda', 'Organic Baby Spinach')",2,0.010875
-"(14233, 27966)","('Natural Spring Water', 'Organic Raspberries')",2,0.01075
-"(5876, 21709)","('Organic Lemon', 'Sparkling Lemon Water')",2,0.01075
-"(5077, 49683)","('100% Whole Wheat Bread', 'Cucumber Kirby')",2,0.01075
-"(27845, 40706)","('Organic Whole Milk', 'Organic Grape Tomatoes')",2,0.01075
-"(27086, 39275)","('Half & Half', 'Organic Blueberries')",2,0.01075
-"(14947, 43154)","('Pure Sparkling Water', 'Organic Red Potatoes')",2,0.010625
-"(5876, 21288)","('Organic Lemon', 'Blackberries')",2,0.010625
-"(5077, 44632)","('100% Whole Wheat Bread', 'Sparkling Water Grapefruit')",2,0.010625
-"(21137, 30489)","('Organic Strawberries', 'Organic Raw Kombucha Gingerade')",2,0.010625
-"(28204, 47626)","('Organic Fuji Apple', 'Large Lemon')",2,0.010625
-"(12341, 27845)","('Hass Avocados', 'Organic Whole Milk')",2,0.010625
-"(12341, 24964)","('Hass Avocados', 'Organic Garlic')",2,0.010625
-"(6184, 35221)","('Sparkling Water Berry', 'Lime Sparkling Water')",2,0.010625
-"(27086, 27966)","('Half & Half', 'Organic Raspberries')",2,0.010625
-"(21288, 49683)","('Blackberries', 'Cucumber Kirby')",2,0.0105
-"(14233, 45007)","('Natural Spring Water', 'Organic Zucchini')",2,0.0105
-"(26620, 44632)","('Peach Pear Flavored Sparkling Water', 'Sparkling Water Grapefruit')",2,0.0105
-"(12341, 47209)","('Hass Avocados', 'Organic Hass Avocado')",2,0.0105
-"(40706, 45007)","('Organic Grape Tomatoes', 'Organic Zucchini')",2,0.0105
-"(6184, 14947)","('Sparkling Water Berry', 'Pure Sparkling Water')",2,0.0105
-"(12341, 27966)","('Hass Avocados', 'Organic Raspberries')",2,0.010375
-"(27086, 45007)","('Half & Half', 'Organic Zucchini')",2,0.010375
-"(5876, 49683)","('Organic Lemon', 'Cucumber Kirby')",2,0.01025
-"(5876, 26209)","('Organic Lemon', 'Limes')",2,0.01025
-"(5077, 22935)","('100% Whole Wheat Bread', 'Organic Yellow Onion')",2,0.01025
-"(26209, 26620)","('Limes', 'Peach Pear Flavored Sparkling Water')",2,0.01025
-"(14947, 30489)","('Pure Sparkling Water', 'Organic Raw Kombucha Gingerade')",2,0.01025
-"(28204, 39275)","('Organic Fuji Apple', 'Organic Blueberries')",2,0.01025
-"(4605, 21709)","('Yellow Onions', 'Sparkling Lemon Water')",2,0.01025
-"(40706, 44632)","('Organic Grape Tomatoes', 'Sparkling Water Grapefruit')",2,0.01025
-"(196, 47626)","('Soda', 'Large Lemon')",2,0.01025
-"(16797, 37710)","('Strawberries', 'Trail Mix')",2,0.010125
-"(21137, 37710)","('Organic Strawberries', 'Trail Mix')",2,0.010125
-"(14233, 21288)","('Natural Spring Water', 'Blackberries')",2,0.010125
-"(26620, 47626)","('Peach Pear Flavored Sparkling Water', 'Large Lemon')",2,0.010125
-"(26620, 27966)","('Peach Pear Flavored Sparkling Water', 'Organic Raspberries')",2,0.010125
-"(196, 44632)","('Soda', 'Sparkling Water Grapefruit')",2,0.010125
-"(6184, 27845)","('Sparkling Water Berry', 'Organic Whole Milk')",2,0.010125
-"(6184, 13176)","('Sparkling Water Berry', 'Bag of Organic Bananas')",2,0.010125
-"(4605, 24852)","('Yellow Onions', 'Banana')",2,0.01
-"(196, 35221)","('Soda', 'Lime Sparkling Water')",2,0.01
-"(196, 16797)","('Soda', 'Strawberries')",2,0.01
-"(6184, 47766)","('Sparkling Water Berry', 'Organic Avocado')",2,0.01
-"(27086, 47626)","('Half & Half', 'Large Lemon')",2,0.01
-"(37710, 39275)","('Trail Mix', 'Organic Blueberries')",2,0.009875
-"(30489, 35221)","('Organic Raw Kombucha Gingerade', 'Lime Sparkling Water')",2,0.009875
-"(27845, 28204)","('Organic Whole Milk', 'Organic Fuji Apple')",2,0.009875
-"(26209, 43352)","('Limes', 'Raspberries')",2,0.009875
-"(196, 47209)","('Soda', 'Organic Hass Avocado')",2,0.009875
-"(22935, 27086)","('Organic Yellow Onion', 'Half & Half')",2,0.009875
-"(35221, 43154)","('Lime Sparkling Water', 'Organic Red Potatoes')",2,0.00975
-"(21137, 35951)","('Organic Strawberries', 'Organic Large Extra Fancy Fuji Apple')",2,0.00975
-"(5077, 47209)","('100% Whole Wheat Bread', 'Organic Hass Avocado')",2,0.00975
-"(5077, 45007)","('100% Whole Wheat Bread', 'Organic Zucchini')",2,0.00975
-"(12341, 47626)","('Hass Avocados', 'Large Lemon')",2,0.00975
-"(196, 13176)","('Soda', 'Bag of Organic Bananas')",2,0.00975
-"(24964, 27086)","('Organic Garlic', 'Half & Half')",2,0.00975
-"(24852, 35951)","('Banana', 'Organic Large Extra Fancy Fuji Apple')",2,0.009625
-"(5876, 27966)","('Organic Lemon', 'Organic Raspberries')",2,0.009625
-"(5876, 14947)","('Organic Lemon', 'Pure Sparkling Water')",2,0.009625
-"(27966, 28204)","('Organic Raspberries', 'Organic Fuji Apple')",2,0.009625
-"(40706, 49683)","('Organic Grape Tomatoes', 'Cucumber Kirby')",2,0.009625
-"(21288, 40706)","('Blackberries', 'Organic Grape Tomatoes')",2,0.009625
-"(49235, 49683)","('Organic Half & Half', 'Cucumber Kirby')",2,0.009625
-"(37710, 47766)","('Trail Mix', 'Organic Avocado')",2,0.0095
-"(16797, 35951)","('Strawberries', 'Organic Large Extra Fancy Fuji Apple')",2,0.0095
-"(5876, 45007)","('Organic Lemon', 'Organic Zucchini')",2,0.0095
-"(14233, 26620)","('Natural Spring Water', 'Peach Pear Flavored Sparkling Water')",2,0.0095
-"(4605, 21137)","('Yellow Onions', 'Organic Strawberries')",2,0.0095
-"(4605, 13176)","('Yellow Onions', 'Bag of Organic Bananas')",2,0.0095
-"(14233, 49683)","('Natural Spring Water', 'Cucumber Kirby')",2,0.009375
-"(14233, 27086)","('Natural Spring Water', 'Half & Half')",2,0.009375
-"(21903, 43154)","('Organic Baby Spinach', 'Organic Red Potatoes')",2,0.009375
-"(5077, 24964)","('100% Whole Wheat Bread', 'Organic Garlic')",2,0.009375
-"(12341, 44632)","('Hass Avocados', 'Sparkling Water Grapefruit')",2,0.009375
-"(22935, 40706)","('Organic Yellow Onion', 'Organic Grape Tomatoes')",2,0.009375
-"(24964, 49235)","('Organic Garlic', 'Organic Half & Half')",2,0.009375
-"(17794, 24852)","('Carrots', 'Banana')",2,0.00925
-"(5876, 43352)","('Organic Lemon', 'Raspberries')",2,0.00925
-"(5876, 27845)","('Organic Lemon', 'Organic Whole Milk')",2,0.00925
-"(16797, 30489)","('Strawberries', 'Organic Raw Kombucha Gingerade')",2,0.00925
-"(13176, 30489)","('Bag of Organic Bananas', 'Organic Raw Kombucha Gingerade')",2,0.00925
-"(4605, 14947)","('Yellow Onions', 'Pure Sparkling Water')",2,0.00925
-"(196, 39275)","('Soda', 'Organic Blueberries')",2,0.00925
-"(13176, 43154)","('Bag of Organic Bananas', 'Organic Red Potatoes')",2,0.009125
-"(5876, 44632)","('Organic Lemon', 'Sparkling Water Grapefruit')",2,0.009125
-"(30489, 47209)","('Organic Raw Kombucha Gingerade', 'Organic Hass Avocado')",2,0.009125
-"(14233, 43352)","('Natural Spring Water', 'Raspberries')",2,0.009
-"(43154, 47766)","('Organic Red Potatoes', 'Organic Avocado')",2,0.009
-"(5077, 27966)","('100% Whole Wheat Bread', 'Organic Raspberries')",2,0.009
-"(21288, 26620)","('Blackberries', 'Peach Pear Flavored Sparkling Water')",2,0.009
-"(12341, 45007)","('Hass Avocados', 'Organic Zucchini')",2,0.009
-"(24852, 46979)","('Banana', 'Asparagus')",2,0.009
-"(13176, 37710)","('Bag of Organic Bananas', 'Trail Mix')",2,0.008875
-"(37710, 47209)","('Trail Mix', 'Organic Hass Avocado')",2,0.008875
-"(22935, 26620)","('Organic Yellow Onion', 'Peach Pear Flavored Sparkling Water')",2,0.008875
-"(12341, 26209)","('Hass Avocados', 'Limes')",2,0.008875
-"(40706, 47626)","('Organic Grape Tomatoes', 'Large Lemon')",2,0.008875
-"(40706, 43352)","('Organic Grape Tomatoes', 'Raspberries')",2,0.008875
-"(196, 22935)","('Soda', 'Organic Yellow Onion')",2,0.008875
-"(21288, 27086)","('Blackberries', 'Half & Half')",2,0.008875
-"(21709, 31717)","('Sparkling Lemon Water', 'Organic Cilantro')",2,0.008875
-"(27966, 49235)","('Organic Raspberries', 'Organic Half & Half')",2,0.008875
-"(14947, 17794)","('Pure Sparkling Water', 'Carrots')",2,0.00875
-"(27845, 43154)","('Organic Whole Milk', 'Organic Red Potatoes')",2,0.00875
-"(39275, 43154)","('Organic Blueberries', 'Organic Red Potatoes')",2,0.00875
-"(35951, 47766)","('Organic Large Extra Fancy Fuji Apple', 'Organic Avocado')",2,0.00875
-"(30489, 39275)","('Organic Raw Kombucha Gingerade', 'Organic Blueberries')",2,0.00875
-"(24852, 30489)","('Banana', 'Organic Raw Kombucha Gingerade')",2,0.00875
-"(12341, 49683)","('Hass Avocados', 'Cucumber Kirby')",2,0.00875
-"(27086, 40706)","('Half & Half', 'Organic Grape Tomatoes')",2,0.00875
-"(196, 26209)","('Soda', 'Limes')",2,0.00875
-"(6184, 27966)","('Sparkling Water Berry', 'Organic Raspberries')",2,0.00875
-"(17794, 21709)","('Carrots', 'Sparkling Lemon Water')",2,0.008625
-"(35951, 47209)","('Organic Large Extra Fancy Fuji Apple', 'Organic Hass Avocado')",2,0.008625
-"(26620, 43352)","('Peach Pear Flavored Sparkling Water', 'Raspberries')",2,0.008625
-"(28204, 43352)","('Organic Fuji Apple', 'Raspberries')",2,0.008625
-"(28204, 44632)","('Organic Fuji Apple', 'Sparkling Water Grapefruit')",2,0.008625
-"(22935, 28204)","('Organic Yellow Onion', 'Organic Fuji Apple')",2,0.008625
-"(12341, 21288)","('Hass Avocados', 'Blackberries')",2,0.008625
-"(45007, 49235)","('Organic Zucchini', 'Organic Half & Half')",2,0.008625
-"(26209, 35951)","('Limes', 'Organic Large Extra Fancy Fuji Apple')",2,0.0085
-"(14233, 28204)","('Natural Spring Water', 'Organic Fuji Apple')",2,0.0085
-"(21288, 28204)","('Blackberries', 'Organic Fuji Apple')",2,0.0085
-"(6184, 22935)","('Sparkling Water Berry', 'Organic Yellow Onion')",2,0.0085
-"(22935, 49235)","('Organic Yellow Onion', 'Organic Half & Half')",2,0.0085
-"(26209, 43154)","('Limes', 'Organic Red Potatoes')",2,0.008375
-"(21903, 35951)","('Organic Baby Spinach', 'Organic Large Extra Fancy Fuji Apple')",2,0.008375
-"(30489, 47766)","('Organic Raw Kombucha Gingerade', 'Organic Avocado')",2,0.008375
-"(24964, 28204)","('Organic Garlic', 'Organic Fuji Apple')",2,0.008375
-"(22825, 24852)","('Organic Broccoli', 'Banana')",2,0.008375
-"(27086, 49235)","('Half & Half', 'Organic Half & Half')",2,0.008375
-"(37710, 44632)","('Trail Mix', 'Sparkling Water Grapefruit')",2,0.00825
-"(17794, 21903)","('Carrots', 'Organic Baby Spinach')",2,0.00825
-"(17794, 35221)","('Carrots', 'Lime Sparkling Water')",2,0.00825
-"(43154, 44632)","('Organic Red Potatoes', 'Sparkling Water Grapefruit')",2,0.00825
-"(5077, 47626)","('100% Whole Wheat Bread', 'Large Lemon')",2,0.00825
-"(12341, 43352)","('Hass Avocados', 'Raspberries')",2,0.00825
-"(4605, 47209)","('Yellow Onions', 'Organic Hass Avocado')",2,0.00825
-"(27966, 40706)","('Organic Raspberries', 'Organic Grape Tomatoes')",2,0.00825
-"(21137, 39928)","('Organic Strawberries', 'Organic Baby Carrots')",2,0.00825
-"(26209, 37710)","('Limes', 'Trail Mix')",2,0.008125
-"(27966, 43154)","('Organic Raspberries', 'Organic Red Potatoes')",2,0.008125
-"(30489, 44632)","('Organic Raw Kombucha Gingerade', 'Sparkling Water Grapefruit')",2,0.008125
-"(6184, 21903)","('Sparkling Water Berry', 'Organic Baby Spinach')",2,0.008125
-"(24852, 31717)","('Banana', 'Organic Cilantro')",2,0.008125
-"(27966, 31717)","('Organic Raspberries', 'Organic Cilantro')",2,0.008125
-"(14947, 31717)","('Pure Sparkling Water', 'Organic Cilantro')",2,0.008125
-"(26620, 28204)","('Peach Pear Flavored Sparkling Water', 'Organic Fuji Apple')",2,0.008
-"(28204, 45007)","('Organic Fuji Apple', 'Organic Zucchini')",2,0.008
-"(4605, 21903)","('Yellow Onions', 'Organic Baby Spinach')",2,0.008
-"(26620, 40706)","('Peach Pear Flavored Sparkling Water', 'Organic Grape Tomatoes')",2,0.008
-"(6184, 44632)","('Sparkling Water Berry', 'Sparkling Water Grapefruit')",2,0.008
-"(6184, 24964)","('Sparkling Water Berry', 'Organic Garlic')",2,0.008
-"(27086, 43352)","('Half & Half', 'Raspberries')",2,0.008
-"(21137, 31717)","('Organic Strawberries', 'Organic Cilantro')",2,0.008
-"(14947, 21709, 35221)","('Pure Sparkling Water', 'Sparkling Lemon Water', 'Lime Sparkling Water')",3,0.1315
-"(14947, 21709, 44632)","('Pure Sparkling Water', 'Sparkling Lemon Water', 'Sparkling Water Grapefruit')",3,0.094375
-"(14947, 35221, 44632)","('Pure Sparkling Water', 'Lime Sparkling Water', 'Sparkling Water Grapefruit')",3,0.093375
-"(21709, 35221, 44632)","('Sparkling Lemon Water', 'Lime Sparkling Water', 'Sparkling Water Grapefruit')",3,0.093125
-"(21903, 24852, 47766)","('Organic Baby Spinach', 'Banana', 'Organic Avocado')",3,0.08425
-"(13176, 21137, 47209)","('Bag of Organic Bananas', 'Organic Strawberries', 'Organic Hass Avocado')",3,0.0675
-"(5077, 27086, 27845)","('100% Whole Wheat Bread', 'Half & Half', 'Organic Whole Milk')",3,0.057875
-"(16797, 21288, 39275)","('Strawberries', 'Blackberries', 'Organic Blueberries')",3,0.05725
-"(16797, 39275, 43352)","('Strawberries', 'Organic Blueberries', 'Raspberries')",3,0.056375
-"(16797, 21288, 43352)","('Strawberries', 'Blackberries', 'Raspberries')",3,0.054375
-"(21288, 39275, 43352)","('Blackberries', 'Organic Blueberries', 'Raspberries')",3,0.054
-"(16797, 27966, 39275)","('Strawberries', 'Organic Raspberries', 'Organic Blueberries')",3,0.052
-"(16797, 21137, 39275)","('Strawberries', 'Organic Strawberries', 'Organic Blueberries')",3,0.051375
-"(24852, 26209, 47626)","('Banana', 'Limes', 'Large Lemon')",3,0.050125
-"(16797, 21137, 27966)","('Strawberries', 'Organic Strawberries', 'Organic Raspberries')",3,0.049
-"(21137, 27966, 39275)","('Organic Strawberries', 'Organic Raspberries', 'Organic Blueberries')",3,0.048625
-"(14947, 21709, 26620)","('Pure Sparkling Water', 'Sparkling Lemon Water', 'Peach Pear Flavored Sparkling Water')",3,0.044125
-"(14947, 26620, 35221)","('Pure Sparkling Water', 'Peach Pear Flavored Sparkling Water', 'Lime Sparkling Water')",3,0.043
-"(21709, 26620, 35221)","('Sparkling Lemon Water', 'Peach Pear Flavored Sparkling Water', 'Lime Sparkling Water')",3,0.043
-"(22935, 45007, 49683)","('Organic Yellow Onion', 'Organic Zucchini', 'Cucumber Kirby')",3,0.0375
-"(24964, 45007, 49683)","('Organic Garlic', 'Organic Zucchini', 'Cucumber Kirby')",3,0.037125
-"(22935, 24964, 45007)","('Organic Yellow Onion', 'Organic Garlic', 'Organic Zucchini')",3,0.037
-"(22935, 24964, 49683)","('Organic Yellow Onion', 'Organic Garlic', 'Cucumber Kirby')",3,0.036875
-"(14233, 14947, 21709)","('Natural Spring Water', 'Pure Sparkling Water', 'Sparkling Lemon Water')",3,0.036125
-"(13176, 14947, 21709)","('Bag of Organic Bananas', 'Pure Sparkling Water', 'Sparkling Lemon Water')",3,0.012125
-"(14947, 21709, 24852)","('Pure Sparkling Water', 'Sparkling Lemon Water', 'Banana')",3,0.011375
-"(13176, 21709, 35221)","('Bag of Organic Bananas', 'Sparkling Lemon Water', 'Lime Sparkling Water')",3,0.011125
-"(13176, 14947, 35221)","('Bag of Organic Bananas', 'Pure Sparkling Water', 'Lime Sparkling Water')",3,0.011
-"(14947, 21709, 21903)","('Pure Sparkling Water', 'Sparkling Lemon Water', 'Organic Baby Spinach')",3,0.010875
-"(14947, 21709, 47209)","('Pure Sparkling Water', 'Sparkling Lemon Water', 'Organic Hass Avocado')",3,0.010625
-"(21709, 21903, 35221)","('Sparkling Lemon Water', 'Organic Baby Spinach', 'Lime Sparkling Water')",3,0.0105
-"(14947, 21709, 47626)","('Pure Sparkling Water', 'Sparkling Lemon Water', 'Large Lemon')",3,0.0105
-"(14947, 21903, 35221)","('Pure Sparkling Water', 'Organic Baby Spinach', 'Lime Sparkling Water')",3,0.010375
-"(14947, 21709, 45007)","('Pure Sparkling Water', 'Sparkling Lemon Water', 'Organic Zucchini')",3,0.010375
-"(14947, 21709, 24964)","('Pure Sparkling Water', 'Sparkling Lemon Water', 'Organic Garlic')",3,0.010375
-"(14947, 21137, 21709)","('Pure Sparkling Water', 'Organic Strawberries', 'Sparkling Lemon Water')",3,0.01025
-"(14947, 16797, 21709)","('Pure Sparkling Water', 'Strawberries', 'Sparkling Lemon Water')",3,0.01
-"(16797, 39275, 47626)","('Strawberries', 'Organic Blueberries', 'Large Lemon')",3,0.01
-"(14947, 24852, 35221)","('Pure Sparkling Water', 'Banana', 'Lime Sparkling Water')",3,0.01
-"(14947, 21709, 26209)","('Pure Sparkling Water', 'Sparkling Lemon Water', 'Limes')",3,0.009875
-"(14947, 21709, 40706)","('Pure Sparkling Water', 'Sparkling Lemon Water', 'Organic Grape Tomatoes')",3,0.009875
-"(16797, 21903, 39275)","('Strawberries', 'Organic Baby Spinach', 'Organic Blueberries')",3,0.00975
-"(21137, 21709, 35221)","('Organic Strawberries', 'Sparkling Lemon Water', 'Lime Sparkling Water')",3,0.00975
-"(16797, 21709, 35221)","('Strawberries', 'Sparkling Lemon Water', 'Lime Sparkling Water')",3,0.009625
-"(14233, 21709, 35221)","('Natural Spring Water', 'Sparkling Lemon Water', 'Lime Sparkling Water')",3,0.009625
-"(14947, 16797, 35221)","('Pure Sparkling Water', 'Strawberries', 'Lime Sparkling Water')",3,0.0095
-"(14947, 21709, 49683)","('Pure Sparkling Water', 'Sparkling Lemon Water', 'Cucumber Kirby')",3,0.0095
-"(14233, 14947, 35221)","('Natural Spring Water', 'Pure Sparkling Water', 'Lime Sparkling Water')",3,0.0095
-"(13176, 21137, 27966)","('Bag of Organic Bananas', 'Organic Strawberries', 'Organic Raspberries')",3,0.0095
-"(21137, 27966, 47209)","('Organic Strawberries', 'Organic Raspberries', 'Organic Hass Avocado')",3,0.0095
-"(21137, 39275, 47209)","('Organic Strawberries', 'Organic Blueberries', 'Organic Hass Avocado')",3,0.009375
-"(24852, 47626, 47766)","('Banana', 'Large Lemon', 'Organic Avocado')",3,0.009375
-"(14947, 21709, 47766)","('Pure Sparkling Water', 'Sparkling Lemon Water', 'Organic Avocado')",3,0.009375
-"(21709, 24964, 35221)","('Sparkling Lemon Water', 'Organic Garlic', 'Lime Sparkling Water')",3,0.009375
-"(21709, 35221, 47209)","('Sparkling Lemon Water', 'Lime Sparkling Water', 'Organic Hass Avocado')",3,0.00925
-"(21709, 24852, 35221)","('Sparkling Lemon Water', 'Banana', 'Lime Sparkling Water')",3,0.00925
-"(14947, 21137, 35221)","('Pure Sparkling Water', 'Organic Strawberries', 'Lime Sparkling Water')",3,0.00925
-"(21903, 24852, 47626)","('Organic Baby Spinach', 'Banana', 'Large Lemon')",3,0.009125
-"(24852, 26209, 47766)","('Banana', 'Limes', 'Organic Avocado')",3,0.009125
-"(16797, 39275, 47209)","('Strawberries', 'Organic Blueberries', 'Organic Hass Avocado')",3,0.009
-"(14947, 35221, 47209)","('Pure Sparkling Water', 'Lime Sparkling Water', 'Organic Hass Avocado')",3,0.009
-"(14947, 24964, 35221)","('Pure Sparkling Water', 'Organic Garlic', 'Lime Sparkling Water')",3,0.009
-"(21709, 35221, 40706)","('Sparkling Lemon Water', 'Lime Sparkling Water', 'Organic Grape Tomatoes')",3,0.008875
-"(16797, 21137, 47209)","('Strawberries', 'Organic Strawberries', 'Organic Hass Avocado')",3,0.00875
-"(14947, 21709, 27966)","('Pure Sparkling Water', 'Sparkling Lemon Water', 'Organic Raspberries')",3,0.00875
-"(13176, 21137, 39275)","('Bag of Organic Bananas', 'Organic Strawberries', 'Organic Blueberries')",3,0.008625
-"(14947, 21709, 39275)","('Pure Sparkling Water', 'Sparkling Lemon Water', 'Organic Blueberries')",3,0.008625
-"(21709, 35221, 47626)","('Sparkling Lemon Water', 'Lime Sparkling Water', 'Large Lemon')",3,0.008625
-"(14947, 21709, 27845)","('Pure Sparkling Water', 'Sparkling Lemon Water', 'Organic Whole Milk')",3,0.008625
-"(14947, 21709, 43352)","('Pure Sparkling Water', 'Sparkling Lemon Water', 'Raspberries')",3,0.008625
-"(16797, 24852, 39275)","('Strawberries', 'Banana', 'Organic Blueberries')",3,0.0085
-"(13176, 21709, 44632)","('Bag of Organic Bananas', 'Sparkling Lemon Water', 'Sparkling Water Grapefruit')",3,0.008375
-"(14947, 35221, 47626)","('Pure Sparkling Water', 'Lime Sparkling Water', 'Large Lemon')",3,0.008375
-"(21903, 22935, 24852)","('Organic Baby Spinach', 'Organic Yellow Onion', 'Banana')",3,0.008375
-"(14947, 35221, 40706)","('Pure Sparkling Water', 'Lime Sparkling Water', 'Organic Grape Tomatoes')",3,0.008375
-"(13176, 35221, 44632)","('Bag of Organic Bananas', 'Lime Sparkling Water', 'Sparkling Water Grapefruit')",3,0.00825
-"(13176, 14947, 44632)","('Bag of Organic Bananas', 'Pure Sparkling Water', 'Sparkling Water Grapefruit')",3,0.00825
-"(14947, 35221, 39275)","('Pure Sparkling Water', 'Lime Sparkling Water', 'Organic Blueberries')",3,0.00825
-"(16797, 26209, 39275)","('Strawberries', 'Limes', 'Organic Blueberries')",3,0.008125
-"(21709, 35221, 45007)","('Sparkling Lemon Water', 'Lime Sparkling Water', 'Organic Zucchini')",3,0.008125
-"(24852, 27966, 47766)","('Banana', 'Organic Raspberries', 'Organic Avocado')",3,0.008125
-"(21709, 27966, 35221)","('Sparkling Lemon Water', 'Organic Raspberries', 'Lime Sparkling Water')",3,0.008125
-"(13176, 16797, 21137)","('Bag of Organic Bananas', 'Strawberries', 'Organic Strawberries')",3,0.008
-"(22935, 24852, 47766)","('Organic Yellow Onion', 'Banana', 'Organic Avocado')",3,0.008
-"(21137, 21903, 47766)","('Organic Strawberries', 'Organic Baby Spinach', 'Organic Avocado')",3,0.008
-"(21709, 26209, 35221)","('Sparkling Lemon Water', 'Limes', 'Lime Sparkling Water')",3,0.008
-"(14947, 21709, 49235)","('Pure Sparkling Water', 'Sparkling Lemon Water', 'Organic Half & Half')",3,0.008
-"(14947, 21709, 35221, 44632)","('Pure Sparkling Water', 'Sparkling Lemon Water', 'Lime Sparkling Water', 'Sparkling Water Grapefruit')",4,0.093
-"(16797, 21288, 39275, 43352)","('Strawberries', 'Blackberries', 'Organic Blueberries', 'Raspberries')",4,0.053625
-"(16797, 21137, 27966, 39275)","('Strawberries', 'Organic Strawberries', 'Organic Raspberries', 'Organic Blueberries')",4,0.04775
-"(14947, 21709, 26620, 35221)","('Pure Sparkling Water', 'Sparkling Lemon Water', 'Peach Pear Flavored Sparkling Water', 'Lime Sparkling Water')",4,0.04275
-"(22935, 24964, 45007, 49683)","('Organic Yellow Onion', 'Organic Garlic', 'Organic Zucchini', 'Cucumber Kirby')",4,0.036375
-"(13176, 14947, 21709, 35221)","('Bag of Organic Bananas', 'Pure Sparkling Water', 'Sparkling Lemon Water', 'Lime Sparkling Water')",4,0.010125
-"(14947, 21709, 21903, 35221)","('Pure Sparkling Water', 'Sparkling Lemon Water', 'Organic Baby Spinach', 'Lime Sparkling Water')",4,0.00925
-"(14233, 14947, 21709, 35221)","('Natural Spring Water', 'Pure Sparkling Water', 'Sparkling Lemon Water', 'Lime Sparkling Water')",4,0.009
-"(14947, 21709, 24852, 35221)","('Pure Sparkling Water', 'Sparkling Lemon Water', 'Banana', 'Lime Sparkling Water')",4,0.00875
-"(14947, 21137, 21709, 35221)","('Pure Sparkling Water', 'Organic Strawberries', 'Sparkling Lemon Water', 'Lime Sparkling Water')",4,0.008625
-"(14947, 21709, 24964, 35221)","('Pure Sparkling Water', 'Sparkling Lemon Water', 'Organic Garlic', 'Lime Sparkling Water')",4,0.008375
-"(14947, 21709, 35221, 40706)","('Pure Sparkling Water', 'Sparkling Lemon Water', 'Lime Sparkling Water', 'Organic Grape Tomatoes')",4,0.00825
-"(14947, 16797, 21709, 35221)","('Pure Sparkling Water', 'Strawberries', 'Sparkling Lemon Water', 'Lime Sparkling Water')",4,0.008125
-"(14947, 21709, 35221, 47209)","('Pure Sparkling Water', 'Sparkling Lemon Water', 'Lime Sparkling Water', 'Organic Hass Avocado')",4,0.008125
+"(21709,)","('Sparkling Lemon Water',)",1,0.29184901531728663
+"(21137,)","('Organic Strawberries',)",1,0.24945295404814005
+"(24852,)","('Banana',)",1,0.2286652078774617
+"(14947,)","('Pure Sparkling Water',)",1,0.2212800875273523
+"(27845,)","('Organic Whole Milk',)",1,0.21198030634573303
+"(35221,)","('Lime Sparkling Water',)",1,0.19379102844638948
+"(16797,)","('Strawberries',)",1,0.19242341356673962
+"(39275,)","('Organic Blueberries',)",1,0.18271334792122537
+"(21903,)","('Organic Baby Spinach',)",1,0.17655908096280087
+"(47766,)","('Organic Avocado',)",1,0.17327680525164113
+"(21288,)","('Blackberries',)",1,0.16712253829321663
+"(13176,)","('Bag of Organic Bananas',)",1,0.16342997811816193
+"(47209,)","('Organic Hass Avocado',)",1,0.16096827133479213
+"(44632,)","('Sparkling Water Grapefruit',)",1,0.15426695842450766
+"(27086,)","('Half & Half',)",1,0.14455689277899345
+"(47626,)","('Large Lemon',)",1,0.14442013129102846
+"(26209,)","('Limes',)",1,0.13963347921225383
+"(27966,)","('Organic Raspberries',)",1,0.13963347921225383
+"(24964,)","('Organic Garlic',)",1,0.12800875273522977
+"(22935,)","('Organic Yellow Onion',)",1,0.12541028446389496
+"(45007,)","('Organic Zucchini',)",1,0.12527352297592997
+"(49683,)","('Cucumber Kirby',)",1,0.11761487964989059
+"(43352,)","('Raspberries',)",1,0.11323851203501094
+"(26620,)","('Peach Pear Flavored Sparkling Water',)",1,0.10995623632385121
+"(14233,)","('Natural Spring Water',)",1,0.10681072210065645
+"(5077,)","('100% Whole Wheat Bread',)",1,0.10434901531728666
+"(5876,)","('Organic Lemon',)",1,0.08287746170678337
+"(40706,)","('Organic Grape Tomatoes',)",1,0.08041575492341356
+"(49235,)","('Organic Half & Half',)",1,0.07781728665207878
+"(28204,)","('Organic Fuji Apple',)",1,0.07768052516411379
+"(12341,)","('Hass Avocados',)",1,0.07275711159737418
+"(196,)","('Soda',)",1,0.06113238512035011
+"(6184,)","('Sparkling Water Berry',)",1,0.06113238512035011
+"(30489,)","('Organic Raw Kombucha Gingerade',)",1,0.05757658643326039
+"(37710,)","('Trail Mix',)",1,0.05702954048140044
+"(43154,)","('Organic Red Potatoes',)",1,0.0562089715536105
+"(35951,)","('Organic Large Extra Fancy Fuji Apple',)",1,0.054567833698030636
+"(4605,)","('Yellow Onions',)",1,0.05142231947483589
+"(8518,)","('Organic Red Onion',)",1,0.04882385120350109
+"(17794,)","('Carrots',)",1,0.047045951859956234
+"(46979,)","('Asparagus',)",1,0.04349015317286652
+"(31717,)","('Organic Cilantro',)",1,0.04349015317286652
+"(39928,)","('Organic Baby Carrots',)",1,0.0425328227571116
+"(34126,)","('Organic Italian Parsley Bunch',)",1,0.03925054704595186
+"(28842,)","('Organic Sweet Peas',)",1,0.037472647702407005
+"(10749,)","('Organic Cilantro Bunch',)",1,0.036925601750547044
+"(24184,)","('Organic Baby Broccoli',)",1,0.03596827133479212
+"(22825,)","('Organic Broccoli',)",1,0.035831509846827134
+"(27104,)","('Fresh Basil',)",1,0.032959518599562365
+"(18523,)","('Organic Baby Arugula',)",1,0.03090809628008753
+"(14947, 21709)","('Pure Sparkling Water', 'Sparkling Lemon Water')",2,0.1650711159737418
+"(21709, 35221)","('Sparkling Lemon Water', 'Lime Sparkling Water')",2,0.14113785557986872
+"(14947, 35221)","('Pure Sparkling Water', 'Lime Sparkling Water')",2,0.1349835886214442
+"(16797, 39275)","('Strawberries', 'Organic Blueberries')",2,0.11064004376367614
+"(21709, 44632)","('Sparkling Lemon Water', 'Sparkling Water Grapefruit')",2,0.10161378555798688
+"(14947, 44632)","('Pure Sparkling Water', 'Sparkling Water Grapefruit')",2,0.09586980306345733
+"(35221, 44632)","('Lime Sparkling Water', 'Sparkling Water Grapefruit')",2,0.0938183807439825
+"(21903, 24852)","('Organic Baby Spinach', 'Banana')",2,0.09272428884026258
+"(24852, 47766)","('Banana', 'Organic Avocado')",2,0.09245076586433261
+"(21903, 47766)","('Organic Baby Spinach', 'Organic Avocado')",2,0.09163019693654267
+"(13176, 21137)","('Bag of Organic Bananas', 'Organic Strawberries')",2,0.08602297592997812
+"(21137, 47209)","('Organic Strawberries', 'Organic Hass Avocado')",2,0.0824671772428884
+"(13176, 47209)","('Bag of Organic Bananas', 'Organic Hass Avocado')",2,0.07672319474835886
+"(27086, 27845)","('Half & Half', 'Organic Whole Milk')",2,0.07097921225382932
+"(21288, 39275)","('Blackberries', 'Organic Blueberries')",2,0.07084245076586433
+"(21137, 39275)","('Organic Strawberries', 'Organic Blueberries')",2,0.07015864332603938
+"(16797, 21137)","('Strawberries', 'Organic Strawberries')",2,0.06974835886214442
+"(16797, 21288)","('Strawberries', 'Blackberries')",2,0.06947483588621445
+"(24852, 47626)","('Banana', 'Large Lemon')",2,0.06824398249452954
+"(24852, 26209)","('Banana', 'Limes')",2,0.06537199124726477
+"(5077, 27845)","('100% Whole Wheat Bread', 'Organic Whole Milk')",2,0.06482494529540482
+"(21137, 27966)","('Organic Strawberries', 'Organic Raspberries')",2,0.06400437636761488
+"(16797, 43352)","('Strawberries', 'Raspberries')",2,0.06277352297592997
+"(39275, 43352)","('Organic Blueberries', 'Raspberries')",2,0.06222647702407002
+"(21288, 43352)","('Blackberries', 'Raspberries')",2,0.061679431072210064
+"(26209, 47626)","('Limes', 'Large Lemon')",2,0.06099562363238512
+"(5077, 27086)","('100% Whole Wheat Bread', 'Half & Half')",2,0.06072210065645514
+"(16797, 27966)","('Strawberries', 'Organic Raspberries')",2,0.06044857768052517
+"(27966, 39275)","('Organic Raspberries', 'Organic Blueberries')",2,0.060175054704595186
+"(21709, 26620)","('Sparkling Lemon Water', 'Peach Pear Flavored Sparkling Water')",2,0.05812363238512035
+"(14947, 26620)","('Pure Sparkling Water', 'Peach Pear Flavored Sparkling Water')",2,0.05278993435448578
+"(21137, 21709)","('Organic Strawberries', 'Sparkling Lemon Water')",2,0.05196936542669584
+"(26620, 35221)","('Peach Pear Flavored Sparkling Water', 'Lime Sparkling Water')",2,0.05169584245076586
+"(21709, 27845)","('Sparkling Lemon Water', 'Organic Whole Milk')",2,0.05087527352297593
+"(24964, 45007)","('Organic Garlic', 'Organic Zucchini')",2,0.04882385120350109
+"(22935, 24964)","('Organic Yellow Onion', 'Organic Garlic')",2,0.04772975929978118
+"(24964, 49683)","('Organic Garlic', 'Cucumber Kirby')",2,0.047045951859956234
+"(45007, 49683)","('Organic Zucchini', 'Cucumber Kirby')",2,0.04581509846827134
+"(22935, 45007)","('Organic Yellow Onion', 'Organic Zucchini')",2,0.04540481400437637
+"(22935, 49683)","('Organic Yellow Onion', 'Cucumber Kirby')",2,0.04472100656455142
+"(14233, 21709)","('Natural Spring Water', 'Sparkling Lemon Water')",2,0.04403719912472648
+"(21709, 24852)","('Sparkling Lemon Water', 'Banana')",2,0.04239606126914661
+"(21137, 27845)","('Organic Strawberries', 'Organic Whole Milk')",2,0.04225929978118162
+"(24852, 27845)","('Banana', 'Organic Whole Milk')",2,0.04075492341356674
+"(14233, 14947)","('Natural Spring Water', 'Pure Sparkling Water')",2,0.03801969365426696
+"(21137, 24852)","('Organic Strawberries', 'Banana')",2,0.037199124726477024
+"(21288, 21709)","('Blackberries', 'Sparkling Lemon Water')",2,0.036925601750547044
+"(16797, 21709)","('Strawberries', 'Sparkling Lemon Water')",2,0.036515317286652076
+"(13176, 21709)","('Bag of Organic Bananas', 'Sparkling Lemon Water')",2,0.03637855579868709
+"(21709, 21903)","('Sparkling Lemon Water', 'Organic Baby Spinach')",2,0.035147702407002185
+"(14947, 27845)","('Pure Sparkling Water', 'Organic Whole Milk')",2,0.03487417943107221
+"(16797, 27845)","('Strawberries', 'Organic Whole Milk')",2,0.03487417943107221
+"(14947, 21137)","('Pure Sparkling Water', 'Organic Strawberries')",2,0.03446389496717724
+"(21709, 47766)","('Sparkling Lemon Water', 'Organic Avocado')",2,0.03391684901531729
+"(21903, 27845)","('Organic Baby Spinach', 'Organic Whole Milk')",2,0.03241247264770241
+"(21137, 21288)","('Organic Strawberries', 'Blackberries')",2,0.03241247264770241
+"(21709, 45007)","('Sparkling Lemon Water', 'Organic Zucchini')",2,0.03213894967177243
+"(21709, 26209)","('Sparkling Lemon Water', 'Limes')",2,0.03213894967177243
+"(21137, 35221)","('Organic Strawberries', 'Lime Sparkling Water')",2,0.03200218818380744
+"(27845, 39275)","('Organic Whole Milk', 'Organic Blueberries')",2,0.03186542669584245
+"(21709, 39275)","('Sparkling Lemon Water', 'Organic Blueberries')",2,0.031591903719912474
+"(21709, 27086)","('Sparkling Lemon Water', 'Half & Half')",2,0.03145514223194748
+"(21137, 47766)","('Organic Strawberries', 'Organic Avocado')",2,0.03145514223194748
+"(21709, 47209)","('Sparkling Lemon Water', 'Organic Hass Avocado')",2,0.03145514223194748
+"(27845, 47766)","('Organic Whole Milk', 'Organic Avocado')",2,0.03036105032822757
+"(21288, 27845)","('Blackberries', 'Organic Whole Milk')",2,0.030224288840262584
+"(21709, 47626)","('Sparkling Lemon Water', 'Large Lemon')",2,0.030087527352297593
+"(21137, 21903)","('Organic Strawberries', 'Organic Baby Spinach')",2,0.02899343544857768
+"(27845, 35221)","('Organic Whole Milk', 'Lime Sparkling Water')",2,0.028583150984682712
+"(27845, 47209)","('Organic Whole Milk', 'Organic Hass Avocado')",2,0.028446389496717725
+"(21137, 47626)","('Organic Strawberries', 'Large Lemon')",2,0.028309628008752735
+"(21709, 22935)","('Sparkling Lemon Water', 'Organic Yellow Onion')",2,0.028036105032822757
+"(21709, 27966)","('Sparkling Lemon Water', 'Organic Raspberries')",2,0.028036105032822757
+"(21288, 24852)","('Blackberries', 'Banana')",2,0.027899343544857767
+"(26209, 27845)","('Limes', 'Organic Whole Milk')",2,0.026805251641137857
+"(21709, 24964)","('Sparkling Lemon Water', 'Organic Garlic')",2,0.026531728665207876
+"(27845, 47626)","('Organic Whole Milk', 'Large Lemon')",2,0.02598468271334792
+"(21137, 27086)","('Organic Strawberries', 'Half & Half')",2,0.02584792122538293
+"(13176, 24852)","('Bag of Organic Bananas', 'Banana')",2,0.025574398249452953
+"(24852, 27086)","('Banana', 'Half & Half')",2,0.025300875273522976
+"(21137, 26209)","('Organic Strawberries', 'Limes')",2,0.025300875273522976
+"(14947, 21288)","('Pure Sparkling Water', 'Blackberries')",2,0.02516411378555799
+"(13176, 27845)","('Bag of Organic Bananas', 'Organic Whole Milk')",2,0.02516411378555799
+"(21137, 24964)","('Organic Strawberries', 'Organic Garlic')",2,0.025027352297592998
+"(24852, 47209)","('Banana', 'Organic Hass Avocado')",2,0.024890590809628008
+"(14947, 24852)","('Pure Sparkling Water', 'Banana')",2,0.02475382932166302
+"(16797, 24852)","('Strawberries', 'Banana')",2,0.024480306345733043
+"(27845, 27966)","('Organic Whole Milk', 'Organic Raspberries')",2,0.024480306345733043
+"(21137, 45007)","('Organic Strawberries', 'Organic Zucchini')",2,0.024343544857768053
+"(21709, 49683)","('Sparkling Lemon Water', 'Cucumber Kirby')",2,0.024206783369803062
+"(24852, 35221)","('Banana', 'Lime Sparkling Water')",2,0.023659737417943107
+"(24852, 39275)","('Banana', 'Organic Blueberries')",2,0.023659737417943107
+"(27845, 44632)","('Organic Whole Milk', 'Sparkling Water Grapefruit')",2,0.023659737417943107
+"(13176, 21288)","('Bag of Organic Bananas', 'Blackberries')",2,0.023659737417943107
+"(21288, 35221)","('Blackberries', 'Lime Sparkling Water')",2,0.023522975929978117
+"(21288, 21903)","('Blackberries', 'Organic Baby Spinach')",2,0.023522975929978117
+"(21137, 44632)","('Organic Strawberries', 'Sparkling Water Grapefruit')",2,0.02338621444201313
+"(24852, 24964)","('Banana', 'Organic Garlic')",2,0.02324945295404814
+"(21137, 49683)","('Organic Strawberries', 'Cucumber Kirby')",2,0.023112691466083152
+"(14947, 16797)","('Pure Sparkling Water', 'Strawberries')",2,0.022428884026258207
+"(14947, 21903)","('Pure Sparkling Water', 'Organic Baby Spinach')",2,0.022292122538293217
+"(21288, 47766)","('Blackberries', 'Organic Avocado')",2,0.022292122538293217
+"(21709, 40706)","('Sparkling Lemon Water', 'Organic Grape Tomatoes')",2,0.022155361050328226
+"(21288, 47626)","('Blackberries', 'Large Lemon')",2,0.02201859956236324
+"(22935, 24852)","('Organic Yellow Onion', 'Banana')",2,0.02201859956236324
+"(21137, 22935)","('Organic Strawberries', 'Organic Yellow Onion')",2,0.02201859956236324
+"(21137, 26620)","('Organic Strawberries', 'Peach Pear Flavored Sparkling Water')",2,0.02188183807439825
+"(5077, 21709)","('100% Whole Wheat Bread', 'Sparkling Lemon Water')",2,0.02188183807439825
+"(27845, 45007)","('Organic Whole Milk', 'Organic Zucchini')",2,0.02188183807439825
+"(24852, 27966)","('Banana', 'Organic Raspberries')",2,0.02188183807439825
+"(13176, 39275)","('Bag of Organic Bananas', 'Organic Blueberries')",2,0.02174507658643326
+"(16797, 47626)","('Strawberries', 'Large Lemon')",2,0.02160831509846827
+"(47209, 47766)","('Organic Hass Avocado', 'Organic Avocado')",2,0.02147155361050328
+"(21903, 47209)","('Organic Baby Spinach', 'Organic Hass Avocado')",2,0.02147155361050328
+"(16797, 35221)","('Strawberries', 'Lime Sparkling Water')",2,0.02147155361050328
+"(24852, 44632)","('Banana', 'Sparkling Water Grapefruit')",2,0.02147155361050328
+"(21903, 35221)","('Organic Baby Spinach', 'Lime Sparkling Water')",2,0.021334792122538294
+"(16797, 47766)","('Strawberries', 'Organic Avocado')",2,0.021334792122538294
+"(16797, 21903)","('Strawberries', 'Organic Baby Spinach')",2,0.021061269146608316
+"(27845, 43352)","('Organic Whole Milk', 'Raspberries')",2,0.021061269146608316
+"(13176, 47766)","('Bag of Organic Bananas', 'Organic Avocado')",2,0.021061269146608316
+"(14947, 27086)","('Pure Sparkling Water', 'Half & Half')",2,0.020924507658643326
+"(14233, 27845)","('Natural Spring Water', 'Organic Whole Milk')",2,0.020924507658643326
+"(24964, 27845)","('Organic Garlic', 'Organic Whole Milk')",2,0.020924507658643326
+"(21709, 28204)","('Sparkling Lemon Water', 'Organic Fuji Apple')",2,0.020787746170678335
+"(13176, 21903)","('Bag of Organic Bananas', 'Organic Baby Spinach')",2,0.020787746170678335
+"(35221, 47766)","('Lime Sparkling Water', 'Organic Avocado')",2,0.02065098468271335
+"(39275, 47209)","('Organic Blueberries', 'Organic Hass Avocado')",2,0.02065098468271335
+"(14947, 47766)","('Pure Sparkling Water', 'Organic Avocado')",2,0.02037746170678337
+"(24852, 45007)","('Banana', 'Organic Zucchini')",2,0.02037746170678337
+"(27845, 49683)","('Organic Whole Milk', 'Cucumber Kirby')",2,0.02037746170678337
+"(39275, 47626)","('Organic Blueberries', 'Large Lemon')",2,0.02037746170678337
+"(22935, 27845)","('Organic Yellow Onion', 'Organic Whole Milk')",2,0.02037746170678337
+"(14947, 47209)","('Pure Sparkling Water', 'Organic Hass Avocado')",2,0.02024070021881838
+"(16797, 47209)","('Strawberries', 'Organic Hass Avocado')",2,0.02024070021881838
+"(21903, 27966)","('Organic Baby Spinach', 'Organic Raspberries')",2,0.019967177242888403
+"(21288, 26209)","('Blackberries', 'Limes')",2,0.019830415754923413
+"(13176, 16797)","('Bag of Organic Bananas', 'Strawberries')",2,0.019830415754923413
+"(21288, 27966)","('Blackberries', 'Organic Raspberries')",2,0.019830415754923413
+"(21903, 47626)","('Organic Baby Spinach', 'Large Lemon')",2,0.019693654266958426
+"(21903, 27086)","('Organic Baby Spinach', 'Half & Half')",2,0.019420131291028448
+"(21137, 43352)","('Organic Strawberries', 'Raspberries')",2,0.019420131291028448
+"(47626, 47766)","('Large Lemon', 'Organic Avocado')",2,0.019283369803063458
+"(5876, 27845)","('Organic Lemon', 'Organic Whole Milk')",2,0.019283369803063458
+"(39275, 47766)","('Organic Blueberries', 'Organic Avocado')",2,0.019146608315098467
+"(14947, 47626)","('Pure Sparkling Water', 'Large Lemon')",2,0.019146608315098467
+"(16797, 26209)","('Strawberries', 'Limes')",2,0.019146608315098467
+"(14947, 39275)","('Pure Sparkling Water', 'Organic Blueberries')",2,0.019146608315098467
+"(5876, 21709)","('Organic Lemon', 'Sparkling Lemon Water')",2,0.019146608315098467
+"(21288, 44632)","('Blackberries', 'Sparkling Water Grapefruit')",2,0.019146608315098467
+"(21288, 47209)","('Blackberries', 'Organic Hass Avocado')",2,0.01900984682713348
+"(21137, 40706)","('Organic Strawberries', 'Organic Grape Tomatoes')",2,0.01900984682713348
+"(21288, 27086)","('Blackberries', 'Half & Half')",2,0.01887308533916849
+"(26620, 27845)","('Peach Pear Flavored Sparkling Water', 'Organic Whole Milk')",2,0.01887308533916849
+"(21903, 39275)","('Organic Baby Spinach', 'Organic Blueberries')",2,0.01887308533916849
+"(14233, 21137)","('Natural Spring Water', 'Organic Strawberries')",2,0.01887308533916849
+"(13176, 44632)","('Bag of Organic Bananas', 'Sparkling Water Grapefruit')",2,0.01887308533916849
+"(27086, 47766)","('Half & Half', 'Organic Avocado')",2,0.018736323851203503
+"(24852, 26620)","('Banana', 'Peach Pear Flavored Sparkling Water')",2,0.018736323851203503
+"(13176, 14947)","('Bag of Organic Bananas', 'Pure Sparkling Water')",2,0.018736323851203503
+"(26209, 27086)","('Limes', 'Half & Half')",2,0.018599562363238512
+"(35221, 39275)","('Lime Sparkling Water', 'Organic Blueberries')",2,0.018599562363238512
+"(21709, 43352)","('Sparkling Lemon Water', 'Raspberries')",2,0.018599562363238512
+"(21903, 24964)","('Organic Baby Spinach', 'Organic Garlic')",2,0.018599562363238512
+"(27086, 47209)","('Half & Half', 'Organic Hass Avocado')",2,0.018462800875273522
+"(5876, 21137)","('Organic Lemon', 'Organic Strawberries')",2,0.018462800875273522
+"(13176, 35221)","('Bag of Organic Bananas', 'Lime Sparkling Water')",2,0.018462800875273522
+"(21709, 49235)","('Sparkling Lemon Water', 'Organic Half & Half')",2,0.018326039387308535
+"(16797, 24964)","('Strawberries', 'Organic Garlic')",2,0.018189277899343544
+"(16797, 44632)","('Strawberries', 'Sparkling Water Grapefruit')",2,0.018189277899343544
+"(27086, 35221)","('Half & Half', 'Lime Sparkling Water')",2,0.018052516411378557
+"(26209, 39275)","('Limes', 'Organic Blueberries')",2,0.018052516411378557
+"(21288, 24964)","('Blackberries', 'Organic Garlic')",2,0.018052516411378557
+"(14233, 16797)","('Natural Spring Water', 'Strawberries')",2,0.017915754923413567
+"(12341, 21709)","('Hass Avocados', 'Sparkling Lemon Water')",2,0.017915754923413567
+"(14947, 26209)","('Pure Sparkling Water', 'Limes')",2,0.017778993435448576
+"(26209, 27966)","('Limes', 'Organic Raspberries')",2,0.017778993435448576
+"(21137, 28204)","('Organic Strawberries', 'Organic Fuji Apple')",2,0.01764223194748359
+"(24964, 35221)","('Organic Garlic', 'Lime Sparkling Water')",2,0.0175054704595186
+"(16797, 27086)","('Strawberries', 'Half & Half')",2,0.017368708971553612
+"(47209, 47626)","('Organic Hass Avocado', 'Large Lemon')",2,0.017368708971553612
+"(14947, 24964)","('Pure Sparkling Water', 'Organic Garlic')",2,0.017368708971553612
+"(21137, 49235)","('Organic Strawberries', 'Organic Half & Half')",2,0.017368708971553612
+"(5876, 16797)","('Organic Lemon', 'Strawberries')",2,0.017368708971553612
+"(21903, 44632)","('Organic Baby Spinach', 'Sparkling Water Grapefruit')",2,0.017368708971553612
+"(27966, 47766)","('Organic Raspberries', 'Organic Avocado')",2,0.017368708971553612
+"(14947, 45007)","('Pure Sparkling Water', 'Organic Zucchini')",2,0.01723194748358862
+"(35221, 45007)","('Lime Sparkling Water', 'Organic Zucchini')",2,0.01723194748358862
+"(13176, 47626)","('Bag of Organic Bananas', 'Large Lemon')",2,0.01723194748358862
+"(14233, 24852)","('Natural Spring Water', 'Banana')",2,0.01723194748358862
+"(13176, 45007)","('Bag of Organic Bananas', 'Organic Zucchini')",2,0.01709518599562363
+"(21288, 45007)","('Blackberries', 'Organic Zucchini')",2,0.01709518599562363
+"(14947, 22935)","('Pure Sparkling Water', 'Organic Yellow Onion')",2,0.01709518599562363
+"(24852, 49683)","('Banana', 'Cucumber Kirby')",2,0.016958424507658644
+"(24852, 49235)","('Banana', 'Organic Half & Half')",2,0.016958424507658644
+"(27966, 35221)","('Organic Raspberries', 'Lime Sparkling Water')",2,0.016821663019693654
+"(14947, 27966)","('Pure Sparkling Water', 'Organic Raspberries')",2,0.016684901531728667
+"(26620, 47766)","('Peach Pear Flavored Sparkling Water', 'Organic Avocado')",2,0.016548140043763676
+"(27086, 47626)","('Half & Half', 'Large Lemon')",2,0.016548140043763676
+"(24852, 40706)","('Banana', 'Organic Grape Tomatoes')",2,0.016548140043763676
+"(27086, 39275)","('Half & Half', 'Organic Blueberries')",2,0.016411378555798686
+"(27845, 28204)","('Organic Whole Milk', 'Organic Fuji Apple')",2,0.016411378555798686
+"(16797, 49683)","('Strawberries', 'Cucumber Kirby')",2,0.016411378555798686
+"(24852, 43352)","('Banana', 'Raspberries')",2,0.016411378555798686
+"(27086, 45007)","('Half & Half', 'Organic Zucchini')",2,0.0162746170678337
+"(21903, 45007)","('Organic Baby Spinach', 'Organic Zucchini')",2,0.0162746170678337
+"(21288, 49683)","('Blackberries', 'Cucumber Kirby')",2,0.0162746170678337
+"(26209, 35221)","('Limes', 'Lime Sparkling Water')",2,0.0162746170678337
+"(24964, 47766)","('Organic Garlic', 'Organic Avocado')",2,0.0162746170678337
+"(22935, 35221)","('Organic Yellow Onion', 'Lime Sparkling Water')",2,0.016137855579868708
+"(13176, 27086)","('Bag of Organic Bananas', 'Half & Half')",2,0.01600109409190372
+"(196, 21709)","('Soda', 'Sparkling Lemon Water')",2,0.01600109409190372
+"(35221, 49683)","('Lime Sparkling Water', 'Cucumber Kirby')",2,0.01600109409190372
+"(21903, 26209)","('Organic Baby Spinach', 'Limes')",2,0.01600109409190372
+"(21288, 22935)","('Blackberries', 'Organic Yellow Onion')",2,0.01600109409190372
+"(27966, 47626)","('Organic Raspberries', 'Large Lemon')",2,0.01600109409190372
+"(26209, 47766)","('Limes', 'Organic Avocado')",2,0.01586433260393873
+"(24964, 47209)","('Organic Garlic', 'Organic Hass Avocado')",2,0.01586433260393873
+"(5077, 21137)","('100% Whole Wheat Bread', 'Organic Strawberries')",2,0.01572757111597374
+"(24964, 39275)","('Organic Garlic', 'Organic Blueberries')",2,0.01572757111597374
+"(12341, 27845)","('Hass Avocados', 'Organic Whole Milk')",2,0.01572757111597374
+"(22935, 47766)","('Organic Yellow Onion', 'Organic Avocado')",2,0.01572757111597374
+"(6184, 21137)","('Sparkling Water Berry', 'Organic Strawberries')",2,0.01572757111597374
+"(27086, 27966)","('Half & Half', 'Organic Raspberries')",2,0.01572757111597374
+"(13176, 27966)","('Bag of Organic Bananas', 'Organic Raspberries')",2,0.01572757111597374
+"(24852, 28204)","('Banana', 'Organic Fuji Apple')",2,0.015590809628008753
+"(35221, 47626)","('Lime Sparkling Water', 'Large Lemon')",2,0.015590809628008753
+"(39275, 44632)","('Organic Blueberries', 'Sparkling Water Grapefruit')",2,0.015590809628008753
+"(27966, 45007)","('Organic Raspberries', 'Organic Zucchini')",2,0.015454048140043765
+"(47626, 49683)","('Large Lemon', 'Cucumber Kirby')",2,0.015454048140043765
+"(14947, 49683)","('Pure Sparkling Water', 'Cucumber Kirby')",2,0.015454048140043765
+"(21903, 49683)","('Organic Baby Spinach', 'Cucumber Kirby')",2,0.015454048140043765
+"(12341, 21137)","('Hass Avocados', 'Organic Strawberries')",2,0.015454048140043765
+"(27845, 49235)","('Organic Whole Milk', 'Organic Half & Half')",2,0.015454048140043765
+"(5876, 39275)","('Organic Lemon', 'Organic Blueberries')",2,0.015454048140043765
+"(27966, 47209)","('Organic Raspberries', 'Organic Hass Avocado')",2,0.015454048140043765
+"(13176, 26209)","('Bag of Organic Bananas', 'Limes')",2,0.015317286652078774
+"(22935, 39275)","('Organic Yellow Onion', 'Organic Blueberries')",2,0.015317286652078774
+"(22935, 47209)","('Organic Yellow Onion', 'Organic Hass Avocado')",2,0.015317286652078774
+"(13176, 22935)","('Bag of Organic Bananas', 'Organic Yellow Onion')",2,0.015317286652078774
+"(26209, 44632)","('Limes', 'Sparkling Water Grapefruit')",2,0.015180525164113785
+"(24964, 27086)","('Organic Garlic', 'Half & Half')",2,0.015180525164113785
+"(26209, 47209)","('Limes', 'Organic Hass Avocado')",2,0.015043763676148797
+"(21709, 30489)","('Sparkling Lemon Water', 'Organic Raw Kombucha Gingerade')",2,0.014907002188183808
+"(27966, 49683)","('Organic Raspberries', 'Cucumber Kirby')",2,0.014907002188183808
+"(14233, 39275)","('Natural Spring Water', 'Organic Blueberries')",2,0.014907002188183808
+"(5876, 21288)","('Organic Lemon', 'Blackberries')",2,0.014907002188183808
+"(21709, 37710)","('Sparkling Lemon Water', 'Trail Mix')",2,0.014907002188183808
+"(35221, 47209)","('Lime Sparkling Water', 'Organic Hass Avocado')",2,0.01477024070021882
+"(47209, 49683)","('Organic Hass Avocado', 'Cucumber Kirby')",2,0.01477024070021882
+"(21903, 22935)","('Organic Baby Spinach', 'Organic Yellow Onion')",2,0.01477024070021882
+"(44632, 47766)","('Sparkling Water Grapefruit', 'Organic Avocado')",2,0.01477024070021882
+"(39275, 45007)","('Organic Blueberries', 'Organic Zucchini')",2,0.014633479212253829
+"(39275, 49683)","('Organic Blueberries', 'Cucumber Kirby')",2,0.014633479212253829
+"(14233, 27086)","('Natural Spring Water', 'Half & Half')",2,0.014633479212253829
+"(24964, 47626)","('Organic Garlic', 'Large Lemon')",2,0.014633479212253829
+"(14947, 49235)","('Pure Sparkling Water', 'Organic Half & Half')",2,0.014633479212253829
+"(21709, 35951)","('Sparkling Lemon Water', 'Organic Large Extra Fancy Fuji Apple')",2,0.014633479212253829
+"(22935, 26209)","('Organic Yellow Onion', 'Limes')",2,0.014633479212253829
+"(45007, 47209)","('Organic Zucchini', 'Organic Hass Avocado')",2,0.01449671772428884
+"(44632, 47626)","('Sparkling Water Grapefruit', 'Large Lemon')",2,0.01449671772428884
+"(16797, 22935)","('Strawberries', 'Organic Yellow Onion')",2,0.01449671772428884
+"(43352, 47766)","('Raspberries', 'Organic Avocado')",2,0.014359956236323851
+"(27966, 44632)","('Organic Raspberries', 'Sparkling Water Grapefruit')",2,0.014359956236323851
+"(27086, 44632)","('Half & Half', 'Sparkling Water Grapefruit')",2,0.014223194748358862
+"(45007, 47766)","('Organic Zucchini', 'Organic Avocado')",2,0.014223194748358862
+"(16797, 45007)","('Strawberries', 'Organic Zucchini')",2,0.014223194748358862
+"(14233, 21903)","('Natural Spring Water', 'Organic Baby Spinach')",2,0.014223194748358862
+"(21903, 26620)","('Organic Baby Spinach', 'Peach Pear Flavored Sparkling Water')",2,0.014086433260393874
+"(14947, 28204)","('Pure Sparkling Water', 'Organic Fuji Apple')",2,0.014086433260393874
+"(44632, 45007)","('Sparkling Water Grapefruit', 'Organic Zucchini')",2,0.014086433260393874
+"(14233, 47209)","('Natural Spring Water', 'Organic Hass Avocado')",2,0.014086433260393874
+"(13176, 24964)","('Bag of Organic Bananas', 'Organic Garlic')",2,0.014086433260393874
+"(12341, 24852)","('Hass Avocados', 'Banana')",2,0.014086433260393874
+"(13176, 26620)","('Bag of Organic Bananas', 'Peach Pear Flavored Sparkling Water')",2,0.013949671772428883
+"(16797, 49235)","('Strawberries', 'Organic Half & Half')",2,0.013949671772428883
+"(6184, 21709)","('Sparkling Water Berry', 'Sparkling Lemon Water')",2,0.013949671772428883
+"(21903, 43352)","('Organic Baby Spinach', 'Raspberries')",2,0.013812910284463895
+"(12341, 16797)","('Hass Avocados', 'Strawberries')",2,0.013812910284463895
+"(22935, 27966)","('Organic Yellow Onion', 'Organic Raspberries')",2,0.013812910284463895
+"(5077, 24852)","('100% Whole Wheat Bread', 'Banana')",2,0.013676148796498906
+"(5077, 14947)","('100% Whole Wheat Bread', 'Pure Sparkling Water')",2,0.013676148796498906
+"(8518, 21709)","('Organic Red Onion', 'Sparkling Lemon Water')",2,0.013676148796498906
+"(27086, 49683)","('Half & Half', 'Cucumber Kirby')",2,0.013676148796498906
+"(14233, 21288)","('Natural Spring Water', 'Blackberries')",2,0.013676148796498906
+"(26209, 43352)","('Limes', 'Raspberries')",2,0.013676148796498906
+"(27845, 40706)","('Organic Whole Milk', 'Organic Grape Tomatoes')",2,0.013676148796498906
+"(22935, 27086)","('Organic Yellow Onion', 'Half & Half')",2,0.013676148796498906
+"(16797, 26620)","('Strawberries', 'Peach Pear Flavored Sparkling Water')",2,0.013539387308533917
+"(26209, 49683)","('Limes', 'Cucumber Kirby')",2,0.013539387308533917
+"(13176, 49683)","('Bag of Organic Bananas', 'Cucumber Kirby')",2,0.013539387308533917
+"(14233, 47766)","('Natural Spring Water', 'Organic Avocado')",2,0.013539387308533917
+"(24964, 26209)","('Organic Garlic', 'Limes')",2,0.013539387308533917
+"(24964, 27966)","('Organic Garlic', 'Organic Raspberries')",2,0.013539387308533917
+"(24964, 44632)","('Organic Garlic', 'Sparkling Water Grapefruit')",2,0.013539387308533917
+"(16797, 40706)","('Strawberries', 'Organic Grape Tomatoes')",2,0.013539387308533917
+"(21903, 49235)","('Organic Baby Spinach', 'Organic Half & Half')",2,0.013539387308533917
+"(5876, 21903)","('Organic Lemon', 'Organic Baby Spinach')",2,0.013402625820568928
+"(44632, 47209)","('Sparkling Water Grapefruit', 'Organic Hass Avocado')",2,0.013402625820568928
+"(26620, 27086)","('Peach Pear Flavored Sparkling Water', 'Half & Half')",2,0.01312910284463895
+"(27966, 43352)","('Organic Raspberries', 'Raspberries')",2,0.01312910284463895
+"(5876, 13176)","('Organic Lemon', 'Bag of Organic Bananas')",2,0.01312910284463895
+"(21288, 26620)","('Blackberries', 'Peach Pear Flavored Sparkling Water')",2,0.01299234135667396
+"(43352, 47209)","('Raspberries', 'Organic Hass Avocado')",2,0.01299234135667396
+"(47766, 49235)","('Organic Avocado', 'Organic Half & Half')",2,0.01299234135667396
+"(22935, 47626)","('Organic Yellow Onion', 'Large Lemon')",2,0.01299234135667396
+"(17794, 21709)","('Carrots', 'Sparkling Lemon Water')",2,0.01299234135667396
+"(4605, 21709)","('Yellow Onions', 'Sparkling Lemon Water')",2,0.012855579868708972
+"(14947, 40706)","('Pure Sparkling Water', 'Organic Grape Tomatoes')",2,0.012855579868708972
+"(22935, 26620)","('Organic Yellow Onion', 'Peach Pear Flavored Sparkling Water')",2,0.012718818380743983
+"(21709, 43154)","('Sparkling Lemon Water', 'Organic Red Potatoes')",2,0.012718818380743983
+"(26209, 45007)","('Limes', 'Organic Zucchini')",2,0.012718818380743983
+"(5876, 47766)","('Organic Lemon', 'Organic Avocado')",2,0.012718818380743983
+"(5876, 47209)","('Organic Lemon', 'Organic Hass Avocado')",2,0.012718818380743983
+"(43352, 47626)","('Raspberries', 'Large Lemon')",2,0.012582056892778994
+"(21903, 40706)","('Organic Baby Spinach', 'Organic Grape Tomatoes')",2,0.012582056892778994
+"(26620, 27966)","('Peach Pear Flavored Sparkling Water', 'Organic Raspberries')",2,0.012445295404814004
+"(26620, 39275)","('Peach Pear Flavored Sparkling Water', 'Organic Blueberries')",2,0.012445295404814004
+"(14233, 27966)","('Natural Spring Water', 'Organic Raspberries')",2,0.012445295404814004
+"(12341, 39275)","('Hass Avocados', 'Organic Blueberries')",2,0.012445295404814004
+"(35221, 49235)","('Lime Sparkling Water', 'Organic Half & Half')",2,0.012445295404814004
+"(6184, 27845)","('Sparkling Water Berry', 'Organic Whole Milk')",2,0.012445295404814004
+"(26209, 26620)","('Limes', 'Peach Pear Flavored Sparkling Water')",2,0.012308533916849015
+"(45007, 47626)","('Organic Zucchini', 'Large Lemon')",2,0.012308533916849015
+"(21137, 30489)","('Organic Strawberries', 'Organic Raw Kombucha Gingerade')",2,0.012308533916849015
+"(13176, 14233)","('Bag of Organic Bananas', 'Natural Spring Water')",2,0.012308533916849015
+"(12341, 14947)","('Hass Avocados', 'Pure Sparkling Water')",2,0.012308533916849015
+"(40706, 47626)","('Organic Grape Tomatoes', 'Large Lemon')",2,0.012308533916849015
+"(21137, 35951)","('Organic Strawberries', 'Organic Large Extra Fancy Fuji Apple')",2,0.012308533916849015
+"(5876, 24852)","('Organic Lemon', 'Banana')",2,0.012308533916849015
+"(21137, 37710)","('Organic Strawberries', 'Trail Mix')",2,0.012308533916849015
+"(28204, 35221)","('Organic Fuji Apple', 'Lime Sparkling Water')",2,0.012171772428884026
+"(24852, 30489)","('Banana', 'Organic Raw Kombucha Gingerade')",2,0.012171772428884026
+"(196, 21137)","('Soda', 'Organic Strawberries')",2,0.012171772428884026
+"(27966, 49235)","('Organic Raspberries', 'Organic Half & Half')",2,0.012171772428884026
+"(47209, 49235)","('Organic Hass Avocado', 'Organic Half & Half')",2,0.012171772428884026
+"(27845, 35951)","('Organic Whole Milk', 'Organic Large Extra Fancy Fuji Apple')",2,0.012171772428884026
+"(22935, 44632)","('Organic Yellow Onion', 'Sparkling Water Grapefruit')",2,0.012171772428884026
+"(5876, 14947)","('Organic Lemon', 'Pure Sparkling Water')",2,0.012171772428884026
+"(16797, 28204)","('Strawberries', 'Organic Fuji Apple')",2,0.012035010940919038
+"(8518, 21137)","('Organic Red Onion', 'Organic Strawberries')",2,0.012035010940919038
+"(14233, 35221)","('Natural Spring Water', 'Lime Sparkling Water')",2,0.012035010940919038
+"(14233, 47626)","('Natural Spring Water', 'Large Lemon')",2,0.012035010940919038
+"(17794, 21137)","('Carrots', 'Organic Strawberries')",2,0.012035010940919038
+"(5077, 35221)","('100% Whole Wheat Bread', 'Lime Sparkling Water')",2,0.011898249452954049
+"(21903, 28204)","('Organic Baby Spinach', 'Organic Fuji Apple')",2,0.011898249452954049
+"(44632, 49683)","('Sparkling Water Grapefruit', 'Cucumber Kirby')",2,0.011898249452954049
+"(4605, 21137)","('Yellow Onions', 'Organic Strawberries')",2,0.011898249452954049
+"(35221, 43352)","('Lime Sparkling Water', 'Raspberries')",2,0.011898249452954049
+"(26620, 47626)","('Peach Pear Flavored Sparkling Water', 'Large Lemon')",2,0.011761487964989058
+"(26620, 47209)","('Peach Pear Flavored Sparkling Water', 'Organic Hass Avocado')",2,0.011761487964989058
+"(21137, 43154)","('Organic Strawberries', 'Organic Red Potatoes')",2,0.011761487964989058
+"(14233, 45007)","('Natural Spring Water', 'Organic Zucchini')",2,0.011761487964989058
+"(14233, 44632)","('Natural Spring Water', 'Sparkling Water Grapefruit')",2,0.011761487964989058
+"(14947, 43352)","('Pure Sparkling Water', 'Raspberries')",2,0.011761487964989058
+"(40706, 47766)","('Organic Grape Tomatoes', 'Organic Avocado')",2,0.011761487964989058
+"(24964, 49235)","('Organic Garlic', 'Organic Half & Half')",2,0.011761487964989058
+"(13176, 49235)","('Bag of Organic Bananas', 'Organic Half & Half')",2,0.011761487964989058
+"(196, 14947)","('Soda', 'Pure Sparkling Water')",2,0.01162472647702407
+"(14233, 24964)","('Natural Spring Water', 'Organic Garlic')",2,0.01162472647702407
+"(13176, 43352)","('Bag of Organic Bananas', 'Raspberries')",2,0.01162472647702407
+"(35221, 40706)","('Lime Sparkling Water', 'Organic Grape Tomatoes')",2,0.01162472647702407
+"(27845, 43154)","('Organic Whole Milk', 'Organic Red Potatoes')",2,0.011487964989059081
+"(22935, 43352)","('Organic Yellow Onion', 'Raspberries')",2,0.011487964989059081
+"(12341, 13176)","('Hass Avocados', 'Bag of Organic Bananas')",2,0.011487964989059081
+"(39275, 49235)","('Organic Blueberries', 'Organic Half & Half')",2,0.011487964989059081
+"(27845, 37710)","('Organic Whole Milk', 'Trail Mix')",2,0.011487964989059081
+"(28204, 47766)","('Organic Fuji Apple', 'Organic Avocado')",2,0.011351203501094092
+"(24852, 43154)","('Banana', 'Organic Red Potatoes')",2,0.011351203501094092
+"(8518, 27845)","('Organic Red Onion', 'Organic Whole Milk')",2,0.011351203501094092
+"(27086, 43352)","('Half & Half', 'Raspberries')",2,0.011351203501094092
+"(21288, 40706)","('Blackberries', 'Organic Grape Tomatoes')",2,0.011351203501094092
+"(39275, 40706)","('Organic Blueberries', 'Organic Grape Tomatoes')",2,0.011351203501094092
+"(40706, 45007)","('Organic Grape Tomatoes', 'Organic Zucchini')",2,0.011351203501094092
+"(5876, 47626)","('Organic Lemon', 'Large Lemon')",2,0.011351203501094092
+"(5876, 35221)","('Organic Lemon', 'Lime Sparkling Water')",2,0.011351203501094092
+"(6184, 47766)","('Sparkling Water Berry', 'Organic Avocado')",2,0.011351203501094092
+"(26620, 44632)","('Peach Pear Flavored Sparkling Water', 'Sparkling Water Grapefruit')",2,0.011214442013129104
+"(5077, 21288)","('100% Whole Wheat Bread', 'Blackberries')",2,0.011214442013129104
+"(13176, 28204)","('Bag of Organic Bananas', 'Organic Fuji Apple')",2,0.011214442013129104
+"(47766, 49683)","('Organic Avocado', 'Cucumber Kirby')",2,0.011214442013129104
+"(5876, 44632)","('Organic Lemon', 'Sparkling Water Grapefruit')",2,0.011214442013129104
+"(5077, 16797)","('100% Whole Wheat Bread', 'Strawberries')",2,0.011077680525164113
+"(14947, 30489)","('Pure Sparkling Water', 'Organic Raw Kombucha Gingerade')",2,0.011077680525164113
+"(12341, 21288)","('Hass Avocados', 'Blackberries')",2,0.011077680525164113
+"(21709, 46979)","('Sparkling Lemon Water', 'Asparagus')",2,0.011077680525164113
+"(24964, 26620)","('Organic Garlic', 'Peach Pear Flavored Sparkling Water')",2,0.010940919037199124
+"(5077, 21903)","('100% Whole Wheat Bread', 'Organic Baby Spinach')",2,0.010940919037199124
+"(5077, 39275)","('100% Whole Wheat Bread', 'Organic Blueberries')",2,0.010940919037199124
+"(16797, 43154)","('Strawberries', 'Organic Red Potatoes')",2,0.010940919037199124
+"(196, 16797)","('Soda', 'Strawberries')",2,0.010940919037199124
+"(14233, 49683)","('Natural Spring Water', 'Cucumber Kirby')",2,0.010940919037199124
+"(43352, 44632)","('Raspberries', 'Sparkling Water Grapefruit')",2,0.010940919037199124
+"(5077, 47209)","('100% Whole Wheat Bread', 'Organic Hass Avocado')",2,0.010804157549234136
+"(196, 39275)","('Soda', 'Organic Blueberries')",2,0.010804157549234136
+"(14233, 26209)","('Natural Spring Water', 'Limes')",2,0.010804157549234136
+"(12341, 21903)","('Hass Avocados', 'Organic Baby Spinach')",2,0.010804157549234136
+"(26209, 40706)","('Limes', 'Organic Grape Tomatoes')",2,0.010804157549234136
+"(22935, 40706)","('Organic Yellow Onion', 'Organic Grape Tomatoes')",2,0.010804157549234136
+"(6184, 47209)","('Sparkling Water Berry', 'Organic Hass Avocado')",2,0.010804157549234136
+"(6184, 24852)","('Sparkling Water Berry', 'Banana')",2,0.010804157549234136
+"(5077, 47766)","('100% Whole Wheat Bread', 'Organic Avocado')",2,0.010667396061269147
+"(5077, 13176)","('100% Whole Wheat Bread', 'Bag of Organic Bananas')",2,0.010667396061269147
+"(21288, 28204)","('Blackberries', 'Organic Fuji Apple')",2,0.010667396061269147
+"(27086, 28204)","('Half & Half', 'Organic Fuji Apple')",2,0.010667396061269147
+"(196, 21288)","('Soda', 'Blackberries')",2,0.010667396061269147
+"(196, 24852)","('Soda', 'Banana')",2,0.010667396061269147
+"(24964, 43352)","('Organic Garlic', 'Raspberries')",2,0.010667396061269147
+"(12341, 47209)","('Hass Avocados', 'Organic Hass Avocado')",2,0.010667396061269147
+"(5876, 27086)","('Organic Lemon', 'Half & Half')",2,0.010667396061269147
+"(21709, 39928)","('Sparkling Lemon Water', 'Organic Baby Carrots')",2,0.010667396061269147
+"(5077, 45007)","('100% Whole Wheat Bread', 'Organic Zucchini')",2,0.010530634573304158
+"(21709, 34126)","('Sparkling Lemon Water', 'Organic Italian Parsley Bunch')",2,0.010530634573304158
+"(24964, 28204)","('Organic Garlic', 'Organic Fuji Apple')",2,0.010530634573304158
+"(16797, 30489)","('Strawberries', 'Organic Raw Kombucha Gingerade')",2,0.010530634573304158
+"(196, 27845)","('Soda', 'Organic Whole Milk')",2,0.010530634573304158
+"(43352, 49683)","('Raspberries', 'Cucumber Kirby')",2,0.010530634573304158
+"(27966, 40706)","('Organic Raspberries', 'Organic Grape Tomatoes')",2,0.010530634573304158
+"(21709, 31717)","('Sparkling Lemon Water', 'Organic Cilantro')",2,0.010530634573304158
+"(5876, 22935)","('Organic Lemon', 'Organic Yellow Onion')",2,0.010530634573304158
+"(27845, 30489)","('Organic Whole Milk', 'Organic Raw Kombucha Gingerade')",2,0.010393873085339168
+"(13176, 40706)","('Bag of Organic Bananas', 'Organic Grape Tomatoes')",2,0.010393873085339168
+"(6184, 13176)","('Sparkling Water Berry', 'Bag of Organic Bananas')",2,0.010393873085339168
+"(28204, 39275)","('Organic Fuji Apple', 'Organic Blueberries')",2,0.010257111597374179
+"(14233, 22935)","('Natural Spring Water', 'Organic Yellow Onion')",2,0.010257111597374179
+"(6184, 21903)","('Sparkling Water Berry', 'Organic Baby Spinach')",2,0.010257111597374179
+"(16797, 37710)","('Strawberries', 'Trail Mix')",2,0.010257111597374179
+"(17794, 27845)","('Carrots', 'Organic Whole Milk')",2,0.010257111597374179
+"(21137, 39928)","('Organic Strawberries', 'Organic Baby Carrots')",2,0.010257111597374179
+"(28204, 47209)","('Organic Fuji Apple', 'Organic Hass Avocado')",2,0.01012035010940919
+"(8518, 16797)","('Organic Red Onion', 'Strawberries')",2,0.01012035010940919
+"(196, 35221)","('Soda', 'Lime Sparkling Water')",2,0.01012035010940919
+"(40706, 47209)","('Organic Grape Tomatoes', 'Organic Hass Avocado')",2,0.01012035010940919
+"(47626, 49235)","('Large Lemon', 'Organic Half & Half')",2,0.01012035010940919
+"(45007, 49235)","('Organic Zucchini', 'Organic Half & Half')",2,0.01012035010940919
+"(24852, 35951)","('Banana', 'Organic Large Extra Fancy Fuji Apple')",2,0.01012035010940919
+"(6184, 35221)","('Sparkling Water Berry', 'Lime Sparkling Water')",2,0.01012035010940919
+"(6184, 14947)","('Sparkling Water Berry', 'Pure Sparkling Water')",2,0.01012035010940919
+"(24852, 37710)","('Banana', 'Trail Mix')",2,0.01012035010940919
+"(21709, 28842)","('Sparkling Lemon Water', 'Organic Sweet Peas')",2,0.01012035010940919
+"(14947, 21709, 35221)","('Pure Sparkling Water', 'Sparkling Lemon Water', 'Lime Sparkling Water')",3,0.13060722100656455
+"(14947, 21709, 44632)","('Pure Sparkling Water', 'Sparkling Lemon Water', 'Sparkling Water Grapefruit')",3,0.09080962800875274
+"(21709, 35221, 44632)","('Sparkling Lemon Water', 'Lime Sparkling Water', 'Sparkling Water Grapefruit')",3,0.09039934354485776
+"(14947, 35221, 44632)","('Pure Sparkling Water', 'Lime Sparkling Water', 'Sparkling Water Grapefruit')",3,0.08957877461706783
+"(21903, 24852, 47766)","('Organic Baby Spinach', 'Banana', 'Organic Avocado')",3,0.08068927789934355
+"(13176, 21137, 47209)","('Bag of Organic Bananas', 'Organic Strawberries', 'Organic Hass Avocado')",3,0.06824398249452954
+"(16797, 21288, 39275)","('Strawberries', 'Blackberries', 'Organic Blueberries')",3,0.05949124726477024
+"(16797, 39275, 43352)","('Strawberries', 'Organic Blueberries', 'Raspberries')",3,0.057166301969365424
+"(5077, 27086, 27845)","('100% Whole Wheat Bread', 'Half & Half', 'Organic Whole Milk')",3,0.05702954048140044
+"(21288, 39275, 43352)","('Blackberries', 'Organic Blueberries', 'Raspberries')",3,0.05593544857768053
+"(16797, 21288, 43352)","('Strawberries', 'Blackberries', 'Raspberries')",3,0.05579868708971553
+"(16797, 21137, 39275)","('Strawberries', 'Organic Strawberries', 'Organic Blueberries')",3,0.0537472647702407
+"(24852, 26209, 47626)","('Banana', 'Limes', 'Large Lemon')",3,0.05278993435448578
+"(16797, 27966, 39275)","('Strawberries', 'Organic Raspberries', 'Organic Blueberries')",3,0.05196936542669584
+"(14947, 21709, 26620)","('Pure Sparkling Water', 'Sparkling Lemon Water', 'Peach Pear Flavored Sparkling Water')",3,0.047592997811816196
+"(16797, 21137, 27966)","('Strawberries', 'Organic Strawberries', 'Organic Raspberries')",3,0.047592997811816196
+"(21137, 27966, 39275)","('Organic Strawberries', 'Organic Raspberries', 'Organic Blueberries')",3,0.04718271334792123
+"(21709, 26620, 35221)","('Sparkling Lemon Water', 'Peach Pear Flavored Sparkling Water', 'Lime Sparkling Water')",3,0.047045951859956234
+"(14947, 26620, 35221)","('Pure Sparkling Water', 'Peach Pear Flavored Sparkling Water', 'Lime Sparkling Water')",3,0.04636214442013129
+"(22935, 24964, 45007)","('Organic Yellow Onion', 'Organic Garlic', 'Organic Zucchini')",3,0.03952407002188184
+"(24964, 45007, 49683)","('Organic Garlic', 'Organic Zucchini', 'Cucumber Kirby')",3,0.03925054704595186
+"(22935, 24964, 49683)","('Organic Yellow Onion', 'Organic Garlic', 'Cucumber Kirby')",3,0.03925054704595186
+"(22935, 45007, 49683)","('Organic Yellow Onion', 'Organic Zucchini', 'Cucumber Kirby')",3,0.03842997811816193
+"(14233, 14947, 21709)","('Natural Spring Water', 'Pure Sparkling Water', 'Sparkling Lemon Water')",3,0.032959518599562365
+"(14947, 21709, 27845)","('Pure Sparkling Water', 'Sparkling Lemon Water', 'Organic Whole Milk')",3,0.022155361050328226
+"(14947, 21137, 21709)","('Pure Sparkling Water', 'Organic Strawberries', 'Sparkling Lemon Water')",3,0.01887308533916849
+"(21137, 21709, 35221)","('Organic Strawberries', 'Sparkling Lemon Water', 'Lime Sparkling Water')",3,0.018462800875273522
+"(21709, 27845, 35221)","('Sparkling Lemon Water', 'Organic Whole Milk', 'Lime Sparkling Water')",3,0.018052516411378557
+"(16797, 27845, 39275)","('Strawberries', 'Organic Whole Milk', 'Organic Blueberries')",3,0.016958424507658644
+"(14947, 27845, 35221)","('Pure Sparkling Water', 'Organic Whole Milk', 'Lime Sparkling Water')",3,0.016684901531728667
+"(14947, 21137, 35221)","('Pure Sparkling Water', 'Organic Strawberries', 'Lime Sparkling Water')",3,0.016548140043763676
+"(14947, 21288, 21709)","('Pure Sparkling Water', 'Blackberries', 'Sparkling Lemon Water')",3,0.016137855579868708
+"(21903, 24852, 27845)","('Organic Baby Spinach', 'Banana', 'Organic Whole Milk')",3,0.01477024070021882
+"(24852, 27845, 47766)","('Banana', 'Organic Whole Milk', 'Organic Avocado')",3,0.01449671772428884
+"(21288, 21709, 35221)","('Blackberries', 'Sparkling Lemon Water', 'Lime Sparkling Water')",3,0.013949671772428883
+"(16797, 21709, 39275)","('Strawberries', 'Sparkling Lemon Water', 'Organic Blueberries')",3,0.013949671772428883
+"(21903, 27845, 47766)","('Organic Baby Spinach', 'Organic Whole Milk', 'Organic Avocado')",3,0.013676148796498906
+"(13176, 21137, 21709)","('Bag of Organic Bananas', 'Organic Strawberries', 'Sparkling Lemon Water')",3,0.013539387308533917
+"(21137, 21288, 39275)","('Organic Strawberries', 'Blackberries', 'Organic Blueberries')",3,0.013265864332603938
+"(14947, 27845, 44632)","('Pure Sparkling Water', 'Organic Whole Milk', 'Sparkling Water Grapefruit')",3,0.01299234135667396
+"(14947, 16797, 21709)","('Pure Sparkling Water', 'Strawberries', 'Sparkling Lemon Water')",3,0.012855579868708972
+"(14947, 21709, 27086)","('Pure Sparkling Water', 'Sparkling Lemon Water', 'Half & Half')",3,0.012718818380743983
+"(14947, 21288, 35221)","('Pure Sparkling Water', 'Blackberries', 'Lime Sparkling Water')",3,0.012718818380743983
+"(21709, 27845, 44632)","('Sparkling Lemon Water', 'Organic Whole Milk', 'Sparkling Water Grapefruit')",3,0.012582056892778994
+"(21709, 27086, 27845)","('Sparkling Lemon Water', 'Half & Half', 'Organic Whole Milk')",3,0.012308533916849015
+"(21709, 21903, 24852)","('Sparkling Lemon Water', 'Organic Baby Spinach', 'Banana')",3,0.012308533916849015
+"(27845, 35221, 44632)","('Organic Whole Milk', 'Lime Sparkling Water', 'Sparkling Water Grapefruit')",3,0.012171772428884026
+"(14947, 21709, 21903)","('Pure Sparkling Water', 'Sparkling Lemon Water', 'Organic Baby Spinach')",3,0.012035010940919038
+"(21709, 24852, 47766)","('Sparkling Lemon Water', 'Banana', 'Organic Avocado')",3,0.012035010940919038
+"(21709, 21903, 47766)","('Sparkling Lemon Water', 'Organic Baby Spinach', 'Organic Avocado')",3,0.011898249452954049
+"(21288, 27845, 39275)","('Blackberries', 'Organic Whole Milk', 'Organic Blueberries')",3,0.011898249452954049
+"(16797, 21137, 21288)","('Strawberries', 'Organic Strawberries', 'Blackberries')",3,0.011898249452954049
+"(21137, 21709, 44632)","('Organic Strawberries', 'Sparkling Lemon Water', 'Sparkling Water Grapefruit')",3,0.011898249452954049
+"(21137, 21709, 47209)","('Organic Strawberries', 'Sparkling Lemon Water', 'Organic Hass Avocado')",3,0.01162472647702407
+"(14947, 21709, 24852)","('Pure Sparkling Water', 'Sparkling Lemon Water', 'Banana')",3,0.01162472647702407
+"(13176, 14947, 21709)","('Bag of Organic Bananas', 'Pure Sparkling Water', 'Sparkling Lemon Water')",3,0.01162472647702407
+"(14947, 21709, 45007)","('Pure Sparkling Water', 'Sparkling Lemon Water', 'Organic Zucchini')",3,0.011487964989059081
+"(16797, 21709, 35221)","('Strawberries', 'Sparkling Lemon Water', 'Lime Sparkling Water')",3,0.011351203501094092
+"(14947, 21709, 47766)","('Pure Sparkling Water', 'Sparkling Lemon Water', 'Organic Avocado')",3,0.011214442013129104
+"(14947, 21137, 44632)","('Pure Sparkling Water', 'Organic Strawberries', 'Sparkling Water Grapefruit')",3,0.011214442013129104
+"(21137, 21903, 47766)","('Organic Strawberries', 'Organic Baby Spinach', 'Organic Avocado')",3,0.011077680525164113
+"(13176, 21709, 47209)","('Bag of Organic Bananas', 'Sparkling Lemon Water', 'Organic Hass Avocado')",3,0.011077680525164113
+"(21709, 27086, 35221)","('Sparkling Lemon Water', 'Half & Half', 'Lime Sparkling Water')",3,0.010940919037199124
+"(16797, 21137, 27845)","('Strawberries', 'Organic Strawberries', 'Organic Whole Milk')",3,0.010940919037199124
+"(24852, 47626, 47766)","('Banana', 'Large Lemon', 'Organic Avocado')",3,0.010940919037199124
+"(14947, 21709, 47209)","('Pure Sparkling Water', 'Sparkling Lemon Water', 'Organic Hass Avocado')",3,0.010804157549234136
+"(21709, 24852, 35221)","('Sparkling Lemon Water', 'Banana', 'Lime Sparkling Water')",3,0.010667396061269147
+"(16797, 21288, 27845)","('Strawberries', 'Blackberries', 'Organic Whole Milk')",3,0.010667396061269147
+"(24852, 27845, 47626)","('Banana', 'Organic Whole Milk', 'Large Lemon')",3,0.010667396061269147
+"(14947, 21709, 26209)","('Pure Sparkling Water', 'Sparkling Lemon Water', 'Limes')",3,0.010667396061269147
+"(21709, 21903, 35221)","('Sparkling Lemon Water', 'Organic Baby Spinach', 'Lime Sparkling Water')",3,0.010530634573304158
+"(21288, 21903, 24852)","('Blackberries', 'Organic Baby Spinach', 'Banana')",3,0.010530634573304158
+"(21288, 21709, 44632)","('Blackberries', 'Sparkling Lemon Water', 'Sparkling Water Grapefruit')",3,0.010530634573304158
+"(21137, 35221, 44632)","('Organic Strawberries', 'Lime Sparkling Water', 'Sparkling Water Grapefruit')",3,0.010530634573304158
+"(21137, 27845, 27966)","('Organic Strawberries', 'Organic Whole Milk', 'Organic Raspberries')",3,0.010530634573304158
+"(5077, 21709, 27845)","('100% Whole Wheat Bread', 'Sparkling Lemon Water', 'Organic Whole Milk')",3,0.010393873085339168
+"(21709, 35221, 47766)","('Sparkling Lemon Water', 'Lime Sparkling Water', 'Organic Avocado')",3,0.010393873085339168
+"(16797, 21137, 21709)","('Strawberries', 'Organic Strawberries', 'Sparkling Lemon Water')",3,0.010393873085339168
+"(14947, 21709, 22935)","('Pure Sparkling Water', 'Sparkling Lemon Water', 'Organic Yellow Onion')",3,0.010393873085339168
+"(13176, 21709, 35221)","('Bag of Organic Bananas', 'Sparkling Lemon Water', 'Lime Sparkling Water')",3,0.010393873085339168
+"(21709, 35221, 45007)","('Sparkling Lemon Water', 'Lime Sparkling Water', 'Organic Zucchini')",3,0.010257111597374179
+"(21137, 27845, 39275)","('Organic Strawberries', 'Organic Whole Milk', 'Organic Blueberries')",3,0.010257111597374179
+"(21137, 21903, 24852)","('Organic Strawberries', 'Organic Baby Spinach', 'Banana')",3,0.01012035010940919
+"(21137, 24852, 47766)","('Organic Strawberries', 'Banana', 'Organic Avocado')",3,0.01012035010940919
+"(21137, 27845, 47209)","('Organic Strawberries', 'Organic Whole Milk', 'Organic Hass Avocado')",3,0.01012035010940919
+"(21288, 24852, 47766)","('Blackberries', 'Banana', 'Organic Avocado')",3,0.01012035010940919
+"(14947, 21709, 35221, 44632)","('Pure Sparkling Water', 'Sparkling Lemon Water', 'Lime Sparkling Water', 'Sparkling Water Grapefruit')",4,0.08930525164113785
+"(16797, 21288, 39275, 43352)","('Strawberries', 'Blackberries', 'Organic Blueberries', 'Raspberries')",4,0.05511487964989059
+"(14947, 21709, 26620, 35221)","('Pure Sparkling Water', 'Sparkling Lemon Water', 'Peach Pear Flavored Sparkling Water', 'Lime Sparkling Water')",4,0.04608862144420131
+"(16797, 21137, 27966, 39275)","('Strawberries', 'Organic Strawberries', 'Organic Raspberries', 'Organic Blueberries')",4,0.04608862144420131
+"(22935, 24964, 45007, 49683)","('Organic Yellow Onion', 'Organic Garlic', 'Organic Zucchini', 'Cucumber Kirby')",4,0.03842997811816193
+"(14947, 21137, 21709, 35221)","('Pure Sparkling Water', 'Organic Strawberries', 'Sparkling Lemon Water', 'Lime Sparkling Water')",4,0.01572757111597374
+"(14947, 21709, 27845, 35221)","('Pure Sparkling Water', 'Sparkling Lemon Water', 'Organic Whole Milk', 'Lime Sparkling Water')",4,0.01572757111597374
+"(21903, 24852, 27845, 47766)","('Organic Baby Spinach', 'Banana', 'Organic Whole Milk', 'Organic Avocado')",4,0.012445295404814004
+"(14947, 21288, 21709, 35221)","('Pure Sparkling Water', 'Blackberries', 'Sparkling Lemon Water', 'Lime Sparkling Water')",4,0.012308533916849015
+"(14947, 21709, 27845, 44632)","('Pure Sparkling Water', 'Sparkling Lemon Water', 'Organic Whole Milk', 'Sparkling Water Grapefruit')",4,0.011351203501094092
+"(21709, 27845, 35221, 44632)","('Sparkling Lemon Water', 'Organic Whole Milk', 'Lime Sparkling Water', 'Sparkling Water Grapefruit')",4,0.011214442013129104
+"(14947, 27845, 35221, 44632)","('Pure Sparkling Water', 'Organic Whole Milk', 'Lime Sparkling Water', 'Sparkling Water Grapefruit')",4,0.011077680525164113
+"(21137, 21709, 35221, 44632)","('Organic Strawberries', 'Sparkling Lemon Water', 'Lime Sparkling Water', 'Sparkling Water Grapefruit')",4,0.01012035010940919
+"(14947, 21137, 21709, 44632)","('Pure Sparkling Water', 'Organic Strawberries', 'Sparkling Lemon Water', 'Sparkling Water Grapefruit')",4,0.01012035010940919

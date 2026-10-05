@@ -1,8 +1,8 @@
 # Market Basket Analysis
 
-Association mining on grocery baskets — upgraded from a brute-force notebook into a small reusable toolkit with **Apriori**, **FP-Growth**, **association rules**, and **PMI affinity networks**.
+Association mining on grocery baskets — a reusable **MBA toolkit** with Apriori, FP-Growth, Eclat, association rules, PMI networks, sequential patterns, recommenders, holdout evaluation, and a Streamlit demo.
 
-Originally built around the [Instacart Market Basket Analysis](https://www.kaggle.com/c/instacart-market-basket-analysis) dataset. The classic homework goal still holds: find the product collections that appear together most often. This rewrite fixes the algorithm, adds complementary techniques, and ships visualizations plus a reproducible sample dataset.
+Originally built around the [Instacart Market Basket Analysis](https://www.kaggle.com/c/instacart-market-basket-analysis) dataset. The classic goal still holds: find products that appear together. This rewrite fixes the algorithm, adds complementary techniques, and ships visualizations plus a reproducible sample dataset.
 
 <p align="center">
   <img src="figures/04_top_quadruples.png" alt="Top 4-itemsets by support" width="720"/>
@@ -14,16 +14,17 @@ Originally built around the [Instacart Market Basket Analysis](https://www.kaggl
 
 | Path | Role |
 |---|---|
-| `Association Analysis.ipynb` | Original exploratory notebook (kept for history) |
+| `Association Analysis.ipynb` | Original exploratory notebook (history) |
 | `notebooks/enhanced_association_analysis.ipynb` | Walkthrough of the enhanced pipeline |
-| `src/mba/` | Reusable Python package (algorithms + plots) |
+| `src/mba/` | Reusable Python package |
+| `app/streamlit_app.py` | Interactive Streamlit lab |
 | `scripts/generate_sample_data.py` | Instacart-like sample with planted associations |
-| `scripts/run_analysis.py` | End-to-end CLI → CSV results + PNG figures |
-| `scripts/test_mba.py` | Unit checks (Apriori ≡ FP-Growth, rules, PMI) |
+| `scripts/run_analysis.py` | End-to-end CLI → CSV + PNG + Plotly HTML |
+| `scripts/test_mba.py` | Unit tests |
 | `data/sample/` | Generated sample CSVs (ready to run) |
 | `data/raw/` | Drop real Instacart files here (gitignored) |
-| `figures/` | Generated visualizations |
-| `results/` | Frequent itemsets, rules, PMI tables |
+| `figures/` | Static + interactive visualizations |
+| `results/` | Itemsets, rules, PMI, timing, holdout metrics |
 
 ---
 
@@ -31,182 +32,158 @@ Originally built around the [Instacart Market Basket Analysis](https://www.kaggl
 
 The original notebook *mentioned* Apriori but actually:
 
-1. Filtered to orders of **exactly** size 4 (should be **≥ 4** for 4-itemsets)
-2. Enumerated all `itertools.combinations` inside each basket (no support pruning)
-3. Reported raw appearance counts only — no **confidence**, **lift**, or rule form
-4. Had no visualizations beyond tabular output
-
-That works on a heavily cut-down slice, but it is neither Apriori nor scalable.
-
-### What “real” Apriori does
-
-```
-L1 = frequent 1-itemsets (support ≥ minsup)
-for k = 2, 3, ...:
-    Ck = join(Lk-1)          # candidate generation
-    Ck = prune(Ck, Lk-1)     # drop candidates with infrequent subsets
-    Lk = { c ∈ Ck | support(c) ≥ minsup }
-```
-
-Anti-monotonicity: **if an itemset is infrequent, every superset is infrequent.** That prune is what makes association mining tractable.
+1. Filtered to orders of **exactly** size 4 (should be **≥ 4**)
+2. Enumerated all `itertools.combinations` (no support pruning)
+3. Reported raw counts only — no confidence / lift / rules
+4. Had almost no visualization
 
 ---
 
 ## Techniques included
 
-### 1. Apriori (`src/mba/apriori.py`)
-Level-wise frequent-itemset mining with candidate join + subset prune. Good for teaching and for verifying thresholds.
+### Frequent-itemset miners
+| Method | Idea | Typical role |
+|---|---|---|
+| **Apriori** | Level-wise candidates + anti-monotonic prune | Teaching / reference |
+| **FP-Growth** | Compressed FP-tree, no candidates | Fast production mining |
+| **Eclat** | Vertical tid-list intersections | Sparse / depth-first baseline |
 
-### 2. FP-Growth (`src/mba/fp_growth.py`)
-Builds a compressed FP-tree and mines patterns without candidate generation (via `mlxtend`). Same output contract as Apriori → easy A/B comparison.
+On the sample prior set (~7.3k baskets, `minsup=0.01`, `max_len=4`):
 
-On the bundled sample (8,000 baskets, `minsup=0.008`, `max_len=4`):
+| Method | Itemsets | Runtime | Agrees with Apriori |
+|---|---:|---:|:---:|
+| Eclat | 590 | ~0.03 s | yes |
+| FP-Growth | 590 | ~0.11 s | yes |
+| Apriori | 590 | ~1.5 s | — |
 
-| Method | Itemsets | Runtime |
-|---|---:|---:|
-| Apriori | 678 | ~2.2 s |
-| FP-Growth | 678 | ~0.2 s |
+### Association rules
+Support, confidence, lift, leverage, conviction, plus:
+- **Zhang** interestingness (signed dependence)
+- **Utility** ≈ `lift × Σ margins` (synthetic `unit_margin` in sample data)
+- **Scope** labels: `intra_aisle` / `intra_department` / `cross_department`
 
-### 3. Association rules (`src/mba/rules.py`)
-From frequent itemsets, derive `A → B` with:
+### Complementary views
+- **PMI / Jaccard** affinity pairs + network graph
+- **Sequential transitions** `A in order t ⇒ B in order t+1` (needs `orders.csv`)
+- **Recommenders**: item-item cosine CF and TruncatedSVD
+- **Holdout eval**: rule pair precision + recommender recall@k (prior → train)
 
-| Metric | Meaning |
-|---|---|
-| **Support** | `P(A ∪ B)` — how common the whole set is |
-| **Confidence** | `P(B \| A)` — reliability of the implication |
-| **Lift** | `conf / P(B)` — >1 means positive dependence |
-| **Leverage** | `P(A∪B) − P(A)P(B)` — absolute surprise |
-| **Conviction** | how strongly B depends on A |
-
-### 4. Pairwise PMI / Jaccard (`src/mba/affinity.py`)
-Complementary to support-based mining. Popular items dominate raw counts; **PMI** surfaces pairs that co-occur *more than chance*, which is useful for niche but strong affinities (flavored waters, berry mixes, savory veg).
+### Filters
+- Reordered vs first-time line items
+- Department / aisle constrained mining (via product joins)
+- Prefer `data/raw/` when real Instacart CSVs are present
 
 ---
 
 ## Quick start
 
 ```bash
-# 1. Dependencies
 pip install -r requirements.txt
 
-# 2. Sample data (already committed under data/sample/, regenerate if needed)
+# Sample data (already committed; regenerate if needed)
 python scripts/generate_sample_data.py
 
-# 3. Run the full pipeline
+# Full pipeline
 python scripts/run_analysis.py \
-  --min-support 0.008 \
+  --min-support 0.01 \
   --min-confidence 0.2 \
   --min-lift 1.05
 
-# 4. Tests
+# Tests
 python scripts/test_mba.py
+
+# Streamlit demo
+streamlit run app/streamlit_app.py
 ```
 
-Optional: place real Instacart files at
+Optional: place real Instacart files in `data/raw/`:
 
 ```
-data/raw/order_products__train.csv
-data/raw/products.csv
+order_products__train.csv
+order_products__prior.csv
+products.csv
+orders.csv
+aisles.csv
+departments.csv
 ```
 
-`run_analysis.py` prefers `data/raw/` automatically when those files exist. (The old public S3 mirror is gone; Kaggle is the usual source.)
-
-Interactive exploration:
-
-```bash
-jupyter notebook notebooks/enhanced_association_analysis.ipynb
-```
+`run_analysis.py` / the Streamlit app prefer `data/raw/` automatically.
 
 ---
 
 ## Sample results
 
-With the planted sample, the top 4-itemsets recover the same themes the original notebook found on Instacart train data:
+Top 4-itemsets recover the original notebook themes:
 
-1. **Sparkling water flight** — Pure / Lemon / Lime / Grapefruit (`support ≈ 0.093`)
-2. **Berry mix** — Strawberries / Blackberries / Organic Blueberries / Raspberries (`support ≈ 0.054`)
+1. **Sparkling water flight** — Pure / Lemon / Lime / Grapefruit (`support ≈ 0.09`)
+2. **Berry mix** — Strawberries / Blackberries / Organic Blueberries / Raspberries (`support ≈ 0.055`)
 
-High-lift rules tend to sit inside those thematic clusters (veg prep kits, berry pairs, water flavors), which is exactly what you want for cross-sell / bundle design.
+Holdout (rules trained on prior, scored on train): top-20 rule pair precision = **1.0**, basket coverage ≈ **13%**; item-item recall@5 ≈ **0.41** on the sample.
 
 ---
 
 ## Visualizations
 
-### Top products
+### Top products & itemsets
 <img src="figures/01_top_products.png" alt="Top products" width="640"/>
-
-### Frequent pairs & triples
-<img src="figures/02_top_pairs.png" alt="Top pairs" width="640"/>
-<img src="figures/03_top_triples.png" alt="Top triples" width="640"/>
-
-### Top 4-itemsets (original project goal)
 <img src="figures/04_top_quadruples.png" alt="Top quadruples" width="640"/>
 
-### Association rules — support vs confidence (size/color = lift)
+### Rules & PMI
 <img src="figures/05_rules_scatter.png" alt="Rules scatter" width="640"/>
-
-### PMI ranking & affinity network
-<img src="figures/06_top_pmi_pairs.png" alt="Top PMI pairs" width="640"/>
 <img src="figures/07_affinity_network.png" alt="Affinity network" width="720"/>
 
-### Apriori vs FP-Growth coverage
-<img src="figures/08_apriori_vs_fpgrowth.png" alt="Apriori vs FP-Growth" width="560"/>
+### Miner benchmark
+<img src="figures/09_miner_benchmark.png" alt="Miner benchmark" width="560"/>
 
----
+Interactive Plotly HTML (open in a browser):
 
-## Algorithm cheat-sheet
-
-```text
-Baskets ──► filter frequent SKUs ──► transactions (frozensets)
-                 │
-                 ├─► Apriori  ──┐
-                 │              ├─► frequent itemsets ──► association rules
-                 └─► FP-Growth ─┘
-                 │
-                 └─► pairwise PMI / Jaccard ──► affinity network
-```
-
-**When to use what**
-
-| Goal | Prefer |
-|---|---|
-| Teaching / verifying support prune | Apriori |
-| Faster mining on denser baskets | FP-Growth |
-| “Customers who bought A also bought B” | Association rules (lift + confidence) |
-| Surprising niche affinities | PMI / Jaccard network |
-| Shelf / bundle themes | 3–4 itemsets by support *and* high-PMI clusters |
+- `figures/interactive/rules_scatter.html`
+- `figures/interactive/affinity_network.html`
+- `figures/interactive/benchmark.html`
+- `figures/interactive/top_quadruples.html`
 
 ---
 
 ## Package API (short)
 
 ```python
-from mba.apriori import apriori, frequent_itemsets_to_frame
+from mba.apriori import apriori
+from mba.eclat import eclat
 from mba.fp_growth import fp_growth
-from mba.rules import association_rules
+from mba.rules import association_rules, annotate_rule_departments
 from mba.affinity import pairwise_pmi
+from mba.sequential import sequential_transitions
+from mba.recommend import item_item_recommendations, svd_recommendations
+from mba.benchmark import benchmark_miners
+from mba.evaluate import pair_hit_rate
 
 freq = apriori(transactions, min_support=0.01, max_len=4)
-rules = association_rules(freq, min_confidence=0.3, min_lift=1.2)
-pmi = pairwise_pmi(transactions, min_count=5, top_n=30)
+rules = association_rules(freq, min_confidence=0.3, min_lift=1.2, margin_map=margins)
+rules = annotate_rule_departments(rules, products)
 ```
 
-Add `src/` to `PYTHONPATH` (the CLI scripts and notebook do this for you).
+Add `src/` to `PYTHONPATH` (CLI scripts / Streamlit do this for you).
 
 ---
 
-## Design notes / future ideas
+## Architecture
 
-- **Eclat / vertical tid-lists** — another frequent-itemset baseline that shines when baskets are sparse.
-- **Sequence / next-item models** — Instacart also has order timestamps; Markov or transformer recommenders go beyond unordered baskets.
-- **Department-aware mining** — constrain candidates within / across aisles to reduce noise.
-- **Interactive viz** — Plotly/PyVis hover tooltips on the affinity network.
-- **Calibration on full Instacart** — retune `min_support` (often ≪ 0.01 on 130k+ train orders).
+```text
+orders + order_products + products
+        │
+        ├─► filter (freq / size / reordered / department)
+        │
+        ├─► Apriori / FP-Growth / Eclat ─► rules (+ Zhang, utility, scope)
+        ├─► PMI affinity network
+        ├─► sequential transitions (user timelines)
+        ├─► item-item CF + SVD recommenders
+        └─► holdout metrics (prior → train)
+```
 
 ---
 
 ## License / data
 
-Code in this repository is for personal / educational use. If you use the official Instacart 2017 dataset, follow Instacart’s non-commercial terms and cite:
+Code is for personal / educational use. If you use the official Instacart 2017 dataset, follow Instacart’s non-commercial terms and cite:
 
-> “The Instacart Online Grocery Shopping Dataset 2017”, Accessed from https://www.instacart.com/datasets/grocery-shopping-2017
+> “The Instacart Online Grocery Shopping Dataset 2017”
