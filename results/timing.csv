@@ -1,0 +1,3 @@
+method,seconds,itemsets
+apriori,2.1231,678
+fp_growth,0.1900,678

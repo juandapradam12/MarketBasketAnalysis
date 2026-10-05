@@ -1,0 +1,51 @@
+product_id,product_name,aisle_id,department_id
+24852,Banana,24,4
+13176,Bag of Organic Bananas,24,4
+21137,Organic Strawberries,24,4
+21903,Organic Baby Spinach,123,4
+47626,Large Lemon,24,4
+47766,Organic Avocado,24,4
+47209,Organic Hass Avocado,24,4
+16797,Strawberries,24,4
+26209,Limes,24,4
+27966,Organic Raspberries,123,4
+22935,Organic Yellow Onion,83,4
+24964,Organic Garlic,83,4
+45007,Organic Zucchini,83,4
+39275,Organic Blueberries,123,4
+27845,Organic Whole Milk,84,16
+49683,Cucumber Kirby,83,4
+28204,Organic Fuji Apple,24,4
+40706,Organic Grape Tomatoes,123,4
+5876,Organic Lemon,24,4
+49235,Organic Half & Half,53,16
+14233,Natural Spring Water,115,7
+12341,Hass Avocados,24,4
+14947,Pure Sparkling Water,115,7
+21709,Sparkling Lemon Water,115,7
+35221,Lime Sparkling Water,115,7
+44632,Sparkling Water Grapefruit,115,7
+26620,Peach Pear Flavored Sparkling Water,115,7
+21288,Blackberries,24,4
+43352,Raspberries,24,4
+196,Soda,77,7
+6184,Sparkling Water Berry,115,7
+37710,Trail Mix,125,19
+43154,Organic Red Potatoes,83,4
+30489,Organic Raw Kombucha Gingerade,31,7
+27086,Half & Half,53,16
+5077,100% Whole Wheat Bread,112,3
+35951,Organic Large Extra Fancy Fuji Apple,24,4
+17794,Carrots,83,4
+4605,Yellow Onions,83,4
+8518,Organic Red Onion,83,4
+31717,Organic Cilantro,16,4
+39928,Organic Baby Carrots,123,4
+46979,Asparagus,83,4
+34126,Organic Italian Parsley Bunch,16,4
+28842,Organic Sweet Peas,116,1
+22825,Organic Broccoli,83,4
+24184,Organic Baby Broccoli,83,4
+10749,Organic Cilantro Bunch,16,4
+18523,Organic Baby Arugula,123,4
+27104,Fresh Basil,16,4
