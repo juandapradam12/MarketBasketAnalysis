@@ -1,0 +1,12 @@
+{
+  "rules": {
+    "top_k": 20.0,
+    "pair_precision": 1.0,
+    "coverage": 0.13166666666666665,
+    "hits": 20.0
+  },
+  "item_item_recall": {
+    "recall_at_k": 0.40925595238095236,
+    "n_queries": 80.0
+  }
+}

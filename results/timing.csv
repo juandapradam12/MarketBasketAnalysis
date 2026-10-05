@@ -1,0 +1,4 @@
+method,seconds,itemsets,min_support,max_len,agrees_with_apriori
+eclat,0.032807973000217316,590,0.01,4,True
+fp_growth,0.10578612399967824,590,0.01,4,True
+apriori,1.5488752100000056,590,0.01,4,True

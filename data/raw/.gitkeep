@@ -1,0 +1,4 @@
+# Place real Instacart CSVs here:
+#   order_products__train.csv
+#   products.csv
+# run_analysis.py will prefer this directory over data/sample/
