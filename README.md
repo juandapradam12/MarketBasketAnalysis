@@ -1,12 +1,36 @@
 # Market Basket Analysis
 
-Association mining on grocery baskets — a reusable **MBA toolkit** with Apriori, FP-Growth, Eclat, association rules, PMI networks, sequential patterns, recommenders, holdout evaluation, and a Streamlit demo.
+**What should go next in the cart?**  
+Market basket analysis turns grocery receipts into actionable affinities: which products are bought together, which pairs lift each other, and what to recommend next.
 
-Originally built around the [Instacart Market Basket Analysis](https://www.kaggle.com/c/instacart-market-basket-analysis) dataset. The classic goal still holds: find products that appear together. This rewrite fixes the algorithm, adds complementary techniques, and ships visualizations plus a reproducible sample dataset.
+This repo is an end-to-end **retail analytics lab** for that use case — frequent-itemset mining (**Apriori**, **FP-Growth**, **Eclat**), **association rules** with lift / confidence / utility, **PMI** affinity networks, **next-order** sequential patterns, **CF / SVD** recommenders, holdout evaluation, and a **Streamlit** demo on Instacart-style baskets.
 
 <p align="center">
   <img src="figures/04_top_quadruples.png" alt="Top 4-itemsets by support" width="720"/>
 </p>
+
+<p align="center">
+  <em>Example insight: sparkling-water flights and berry mixes rise as high-support co-purchase bundles.</em>
+</p>
+
+**Stack:** Python · pandas · mlxtend · scikit-learn · Plotly · Streamlit · NetworkX  
+
+**Topics:** `market-basket-analysis` · `association-rules` · `apriori` · `fp-growth` · `eclat` · `instacart` · `recommender-systems` · `data-mining` · `retail-analytics` · `streamlit` · `python` · `data-science`
+
+> Paste the GitHub About blurb + topics from [`GITHUB_ABOUT.md`](GITHUB_ABOUT.md) into **Settings → General** (API cannot set repo metadata from this agent).
+
+---
+
+## Timeline of approaches
+
+Both notebooks stay in the repo on purpose — so you can see how the analysis evolved.
+
+| Stage | Artifact | Approach |
+|---|---|---|
+| **1. Original** | [`Association Analysis.ipynb`](Association%20Analysis.ipynb) *(unchanged)* | Exploratory Instacart cut-down: keep products with count > 500, keep orders of **exact** size 4, brute-force `itertools.combinations`, report raw co-occurrence counts for top 4-item lists (sparkling waters, berries) |
+| **2. Enhanced toolkit** | [`notebooks/enhanced_association_analysis.ipynb`](notebooks/enhanced_association_analysis.ipynb) + `src/mba/` | True Apriori / FP-Growth / Eclat, association rules (lift, Zhang, utility, scope), PMI networks, sequential transitions, CF/SVD recommenders, holdout eval, figures + Streamlit |
+
+Read the original first if you want the homework-style narrative; use the enhanced path for the production-style pipeline.
 
 ---
 
@@ -14,8 +38,8 @@ Originally built around the [Instacart Market Basket Analysis](https://www.kaggl
 
 | Path | Role |
 |---|---|
-| `Association Analysis.ipynb` | Original exploratory notebook (history) |
-| `notebooks/enhanced_association_analysis.ipynb` | Full walkthrough (miners, rules, PMI, Eclat, sequential, recommenders, Streamlit pointer) |
+| `Association Analysis.ipynb` | **Original** notebook — kept as-is for the historical timeline |
+| `notebooks/enhanced_association_analysis.ipynb` | Enhanced walkthrough (miners, rules, PMI, Eclat, sequential, recommenders, Streamlit) |
 | `src/mba/` | Reusable Python package (see [module map](#module-map-srcmba)) |
 | `app/streamlit_app.py` | Interactive Streamlit lab |
 | `scripts/generate_sample_data.py` | Instacart-like sample with planted associations |
@@ -30,7 +54,7 @@ Originally built around the [Instacart Market Basket Analysis](https://www.kaggl
 
 ```text
 MarketBasketAnalysis/
-├── Association Analysis.ipynb          # original
+├── Association Analysis.ipynb          # original (preserved timeline)
 ├── app/streamlit_app.py
 ├── data/
 │   ├── raw/                            # optional real Instacart
@@ -47,7 +71,7 @@ MarketBasketAnalysis/
 
 ---
 
-## Problem with the original approach
+## What the original approach did (and why we extended it)
 
 The original notebook *mentioned* Apriori but actually:
 
@@ -55,6 +79,8 @@ The original notebook *mentioned* Apriori but actually:
 2. Enumerated all `itertools.combinations` (no support pruning)
 3. Reported raw counts only — no confidence / lift / rules
 4. Had almost no visualization
+
+We **do not replace** that notebook — it remains the stage-1 baseline. The toolkit below is stage 2.
 
 ---
 
